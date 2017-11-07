@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiHotspotmapHotspotsActivity" >
+
+    <fragment
+        android:id="@+id/googlemap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map_btm_bar"
+        android:layout_alignParentTop="true"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <LinearLayout
+        android:id="@+id/map_btm_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal" >
+
+        <TableRow
+            android:id="@+id/tblr_colorcode"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/imv_week6"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_wk6"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+
+            <ImageView
+                android:id="@+id/imv_week5"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_blue"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+
+            <ImageView
+                android:id="@+id/imv_week4"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_blue"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+
+            <ImageView
+                android:id="@+id/imv_week3"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_blue"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+
+            <ImageView
+                android:id="@+id/imv_week2"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_blue"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+
+            <ImageView
+                android:id="@+id/imv_week1"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/bg_colorcode_blue"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_colorcode_blue" />
+        </TableRow>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mobuzz_ash" />
+
+    <TextView
+        android:id="@+id/txt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mobuzz_ash" />
+
+</RelativeLayout>

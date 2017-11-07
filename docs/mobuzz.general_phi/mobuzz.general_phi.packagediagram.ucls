@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.5" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true">  
+  <package id="1" language="java" name="org.cosmic.mobuzz.general.util" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general/util" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="201" x="541" y="310"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="org.cosmic.mobuzz.general.ui.support" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general/ui/support" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="241" x="703" y="40"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="org.cosmic.mobuzz.general.network" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general/network" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="231" x="354" y="220"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="org.cosmic.mobuzz.general.pojo" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general/pojo" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="208" x="293" y="310"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="org.cosmic.mobuzz.general.ui" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general/ui" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="194" x="548" y="130"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="org.cosmic.mobuzz.general" project="mobuzz.general_dev" 
+    file="/mobuzz.general_dev/src/org/cosmic/mobuzz/general" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="181" x="763" y="400"/>    
+    <display autosize="true" stereotype="true" accessors="true"/>  
+  </package>  
+  <dependency id="7">    
+    <bendpoint x="615" y="220"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="8">    
+    <bendpoint x="302" y="130"/>    
+    <bendpoint x="302" y="220"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="11">    
+    <bendpoint x="323" y="220"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <dependency id="14">    
+    <bendpoint x="751" y="220"/>    
+    <bendpoint x="772" y="310"/>    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="16">    
+    <bendpoint x="772" y="130"/>    
+    <bendpoint x="772" y="220"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="17">    
+    <bendpoint x="793" y="130"/>    
+    <bendpoint x="793" y="220"/>    
+    <bendpoint x="793" y="310"/>    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="true" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

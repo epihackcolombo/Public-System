@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/aboutCosmic"
+        android:numericShortcut="1"
+        android:title="About COSMIC" />
+
+    <item
+        android:id="@+id/aboutFaq"
+        android:numericShortcut="2"
+        android:title="Help with FAQ" />
+
+    <item
+        android:id="@+id/aboutMobuzz"
+        android:numericShortcut="3"
+        android:title="About Mo-Buzz" />
+    
+    
+    <item
+        android:id="@+id/aboutPrivacyPolicy"
+        android:numericShortcut="4"
+        android:title="About Privacy Policy" />
+
+</menu>

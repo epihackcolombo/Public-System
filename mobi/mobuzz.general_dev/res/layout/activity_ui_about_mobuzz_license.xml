@@ -1,0 +1,305 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/mobuzz_ash"
+    android:gravity="end"
+    tools:context=".UiEducationFaq" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/mobuzz_yellow"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_about_privacypolicy" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/mobuzz_ash"
+            android:gravity="top"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_title1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para2"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para6"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para7"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para8"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para9"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para11"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_pp_mobuzz_para12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <TextView
+                    android:id="@+id/txt_pp_mobuzz_para12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pp_mobuzz_para12"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+
+            </TableRow>
+            
+            
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

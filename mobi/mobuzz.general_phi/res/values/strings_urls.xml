@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string name="url_server_port">HOST IP/mobuzz</string>
+	<!--string name="url_server_port">http://172.21.171.247/mobuzz</string-->
+    
+    <string name="url_report_submit">/mob_phi_breedingsite_report_manage.php</string>
+    <string name="url_report_details">/mob_phi_breedingsite_report_image.php</string>
+    <string name="url_report_history">/mob_phi_breedingsite_report_history.php</string>
+    
+    <string name="url_map_data">/mob_phi_map_public_clusters_public.php</string>
+    <string name="url_map_reports_new">/mob_phi_map_public_reports_new.php</string>
+    <string name="url_map_reports_rejected">/mob_phi_map_public_reports_rejected.php</string>
+    <string name="url_map_reports_accepted">/mob_phi_map_public_reports_accepted.php</string>
+    <string name="url_map_reports_update">/mob_phi_map_public_reports_update.php</string>
+    
+    <string name="url_profile_login">/mob_profile_phi_login.php</string>
+    <string name="url_profile_edit">/mob_profile_phi_get_information.php</string>
+    <string name="url_profile_update">/mob_profile_phi_edit_information.php</string>
+    <string name="url_profile_recover">/mob_profile_phi_reset_password.php</string>
+    <string name="url_profile_register">/mob_profile_phi_registration.php</string>
+    
+    <string name="url_activation_code">/mob_activate_app.php</string>
+    
+    <!-- Note: Direct url to the CMC-PHI-Epid system -->
+    <string name="url_cmcf_hotspots">/web_cmcphiepid_server.php</string>
+    
+</resources>

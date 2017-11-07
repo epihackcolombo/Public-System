@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="url_server_port">HOST IP/mobuzz</string>
+	<!--string name="url_server_port">http://172.21.171.134/mobuzz</string-->
+    
+    <string name="url_report_submit">/mob_public_breedingsite_report_manage.php</string>
+    <string name="url_report_details">/mob_public_breedingsite_report_image.php</string>
+    <string name="url_report_history">/mob_public_breedingsite_report_history.php</string>
+    <string name="url_map_data">/mob_map_public_clusters_public.php</string>
+    <string name="url_profile_login">/mob_profile_public_login.php</string>
+    <string name="url_profile_logout">/mob_profile_public_logout.php</string>
+    <string name="url_profile_edit">/mob_profile_public_get_information.php</string>
+    <string name="url_profile_update">/mob_profile_public_edit_information.php</string>
+    <string name="url_profile_recover">/mob_profile_public_reset_password.php</string>
+    <string name="url_profile_register">/mob_profile_public_registration.php</string>
+    
+</resources>

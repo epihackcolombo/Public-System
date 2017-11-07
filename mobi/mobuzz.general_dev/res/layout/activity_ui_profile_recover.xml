@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/mobuzz_ash">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tblr_topmenu" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/usernameRET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/apptheme_edit_text_holo_light"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="username"
+                android:digits="abcdefghijklmnopqrstuvwxyz0123456789.-_"
+                android:maxLength="40"
+                android:padding="10dp"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/emailRET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/apptheme_edit_text_holo_light"
+                android:gravity="center"
+                android:hint="email"
+                android:inputType="textEmailAddress"
+                android:maxLength="80"
+                android:padding="10dp"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/resetButton"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/xml_button_gray"
+                android:height="45dp"
+                android:minHeight="45dp"
+                android:padding="5dp"
+                android:text="reset"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_top_menu"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_profile" />
+    </TableRow>
+
+</RelativeLayout>

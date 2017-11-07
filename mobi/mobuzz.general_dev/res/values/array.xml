@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="user_gender">
+        <item>	Male	</item>
+		<item>	Female	</item>
+    </string-array>
+    
+    <string-array name="user_assessment">
+        <item>	Very urgent	</item>
+		<item>	Urgent	</item>
+		<item>  Not so urgent, but important	</item>
+    </string-array>
+    
+    <string-array name="user_language">
+        <item>	Sinhala	</item>
+		<item>	Tamil	</item>
+		<item>	English	</item>
+    </string-array>
+        
+    <string-array name="user_residence">
+        <item>	Akarawita	</item>
+		<item>	Athurugiriya	</item>
+		<item>	Avissawella	</item>
+		<item>	Batawala	</item>
+		<item>	Battaramulla	</item>
+		<item>	Batugampola	</item>
+		<item>	Bope	</item>
+		<item>	Boralesgamuwa	</item>
+		<item>	Dedigamuwa	</item>
+		<item>	Dehiwala	</item>
+		<item>	Deltara	</item>
+		<item>	Habarakada	</item>
+		<item>	Handapangoda	</item>
+		<item>	Hanwella	</item>
+		<item>	Hewainna	</item>
+		<item>	Hiripitya	</item>
+		<item>	Hokandara	</item>
+		<item>	Homagama	</item>
+		<item>	Horagala	</item>
+		<item>	Kaduwela	</item>
+		<item>	Kahawala	</item>
+		<item>	Kalatuwawa	</item>
+		<item>	Kiriwattuduwa	</item>
+		<item>	Kolonnawa	</item>
+		<item>	Kosgama	</item>
+		<item>	Madapatha	</item>
+		<item>	Maharagama	</item>
+		<item>	Malabe	</item>
+		<item>	Meegoda	</item>
+		<item>	Moratuwa	</item>
+		<item>	Mount Lavinia	</item>
+		<item>	Mullegama	</item>
+		<item>	Mulleriyawa New Town	</item>
+		<item>	Mutwal	</item>
+		<item>	Napawela	</item>
+		<item>	Nugegoda	</item>
+		<item>	Padukka	</item>
+		<item>	Pannipitiya	</item>
+		<item>	Piliyandala	</item>
+		<item>	Pitipana Homagama	</item>
+		<item>	Polgasowita	</item>
+		<item>	Puwakpitiya	</item>
+		<item>	Ranala	</item>
+		<item>	Siddamulla	</item>
+		<item>	Sri Jayawardenepura	</item>
+		<item>	Talawatugoda	</item>
+		<item>	Tummodara	</item>
+		<item>	Waga	</item>
+		<item>	Watareka	</item>
+		<item>	Other	</item>
+    </string-array>
+    
+</resources>

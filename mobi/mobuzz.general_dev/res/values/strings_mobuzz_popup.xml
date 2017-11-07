@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <!-- Note: Messages used in toasts are not listed. -->
+    
+    <!-- Common -->
+    <string name="msg_common_ok">OK</string>
+    <string name="msg_common_no">NO</string>
+    <string name="msg_common_later">Later!</string>
+    <string name="msg_common_usecurrent">Use current location</string>
+    <string name="msg_common_settings">Settings</string>
+    <string name="msg_common_exit">Yes</string>
+    <string name="msg_common_stayson">No</string>
+    <string name="msg_common_signout">Signing out ...</string>
+    <string name="msg_common_signup">Signing up ...</string>
+    <string name="msg_common_loading">Loading ...</string>
+    <string name="msg_common_data_get">Getting data ...</string>
+    <string name="msg_common_cancel">Cancel</string>
+    <string name="msg_common_back">Back</string>
+    <string name="msg_common_submitanyway">Submit anyway</string>
+    
+    <!-- Internet -->
+    <string name="msg_internet_no_title1">Connection inactive</string>
+    <string name="msg_internet_no_para1">Please enable your Internet connection and try again!</string>
+ 
+    <!-- Connection -->
+    <string name="msg_connect_no_title1">Oops! Unable to connect ...</string>
+    <string name="msg_connect_no_para1">Your Internet connection may have problems or the server may be busy/unavailable. Please retry in a few minutes ...</string>
+    <string name="msg_connect_no_para2">There seem to be technical problems...\r\n\r\nYour Internet connection may have problems or the server may be busy/unavailable.\r\n\r\nIf you get this error multiple times, please click \"Clear Data\" under Settings[Android Device] > Application Manager > Mo-Buzz Dengue; and try again.</string>
+ 
+    <!-- Exit -->
+    <string name="msg_exit_para1">Do you want to exit from Mo-Buzz?</string>
+ 
+    <!-- No data -->
+    <string name="msg_data_no_para1">No data to retrieve!</string>
+ 
+    <!-- Loading -->
+    <string name="msg_loading_para1">Loading ...</string>
+    
+    <!-- Downloading -->
+    <string name="msg_downloading_para1">Downloading ...</string>
+    <string name="msg_downloading_para2">Downloading image ...</string>
+ 
+    <!-- Uploading -->
+    <string name="msg_uploading_para1">Uploading ...</string>
+    
+    <!-- Image -->
+    <string name="msg_processing_image1">Processing your image ...</string>
+    <string name="msg_processing_image2">Error in image ...</string>
+ 
+    <!-- Reset password -->
+    <string name="msg_resetpassword_ok_title1">Success</string>
+    <string name="msg_resetpassword_ok_para1">Your password is reset to your \'username\'. Please login and change it.</string>
+    <string name="msg_resetpassword_error_title1">Error</string>
+    <string name="msg_resetpassword_error_para1">Username or email is incorrect</string>
+ 
+    <!-- Register user -->
+    <string name="msg_registeruser_ok_title1">Success</string>
+    <string name="msg_registeruser_ok_para1">You are now successfully registered.</string>
+    <string name="msg_registeruser_no_title2">Please select a different username</string>
+    <string name="msg_registeruser_no_para2">This username is already taken. Please choose a different username.</string>
+ 
+    <!-- Login user -->
+    <string name="msg_loginuser_error_title1">Sign in error</string>
+    <string name="msg_loginuser_error_para1">Incorrect username or password.</string>
+    <string name="msg_loginuser_error_para2">Incorrect password.</string>
+    <string name="msg_loginuser_error_para3">Please sign in to make a complaint!</string>
+
+    <!-- GPS -->
+    <string name="msg_gps_no_title1">Unable to detect location!</string>
+    <string name="msg_gps_no_title2">Unauthorised location!</string>
+    <string name="msg_gps_no_para1">GPS may be disabled in your device. Would you like to enable it?</string>
+    <string name="msg_gps_no_para2">We need your exact location/geo-coordinates. Please take one of these actions: \r\n1) Enable location services on your phone. \r\n2) Go to the nearest spot where your phone can capture the location, and then mention in the form the exact place where you noticed the breeding site.\r\n(capturing GPS may take some time)</string>
+    <string name="msg_gps_no_para3">It seems like you are located outside the Colombo Municipal Council (CMC) jurisdiction. CMC will only respond to breeding sites complaints located within the CMC jurisdiction.</string>
+ 	<string name="msg_gps_no_para4">GPS may be disabled in your device.</string>
+    
+    <!-- Report -->
+    <string name="msg_report_success_title1">Your complaint has been sent</string>
+    <string name="msg_report_success_para1">Thank you for your cooperation in controlling dengue in Colombo Municipal Council jurisdiction.</string>
+    <string name="msg_report_fail_title1">Uploading failed!</string>
+    <string name="msg_report_fail_para1">Thank you for your attempt, please try again.</string>
+ 
+    <!-- Select request fail -->
+    <string name="msg_request_fail_title1">Request failed!</string>
+    <string name="msg_request_fail_para1">Sorry, the request could not be completed. Please try again later.</string>
+ 
+    <!-- Image too big -->
+    <string name="msg_request_rejected_title1">Oops… complaint not sent!</string>
+    <string name="msg_request_rejected_para1">It seems like the network connection is too slow or your image size is too big. The application is resizing your picture and resending it automatically.</string>
+
+    <!-- Server busy -->
+    <string name="msg_serverbusy_title1">Server Message!</string>
+    <string name="msg_serverbusy_para1">Server is currently busy. Please try again later.</string>
+
+    <!-- Unexpected response -->
+    <string name="msg_response_unexpected_title1">Unexpected Response!</string>
+    <string name="msg_response_unexpected_para1">You may not be connected to the Internet or the server may be busy/unavailable. Please retry in a few minutes ...</string>
+    <string name="msg_response_unexpected_title2">Unexpected error!</string>
+    <string name="msg_response_unexpected_para2">The server is busy. Please retry in a few minutes ...</string>
+        
+    <!-- Reauthentication -->
+    <string name="msg_response_reauthentication_title1">Authentication required!</string>
+    <string name="msg_response_reauthentication_para1">We would like to validate your session. Please sign in again.</string>
+    <string name="msg_response_reauthentication_title2">Session timeout!</string>
+    <string name="msg_response_reauthentication_para2">Your session has timed out. Please sign in again.</string>
+    <string name="msg_response_reauthentication_title3">Blocked!</string>
+    <string name="msg_response_reauthentication_para3">Your account has been blocked because of misuse of Mo-Buzz for purposes beyond what the app is intended for.</string>
+    
+    <!-- Hotspot data -->
+    <string name="toast_hotspot_data_no">No hotspot data to show!</string>
+    
+</resources>
+

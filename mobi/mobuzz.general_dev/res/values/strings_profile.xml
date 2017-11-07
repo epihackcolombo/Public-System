@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in ...</string>
+    
+    <!-- block -->
+    <string name="profile_blocked">Your account has been blocked because of misuse of Mo-Buzz for purposes beyond what the app is intended for.</string>
+
+</resources>

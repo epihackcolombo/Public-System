@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiEducationMainpage" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/mobuzz_yellow"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_education" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tblr_botmenu"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@drawable/bg_forms"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tblr_colorcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/ibut_statistics"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/but_form_statistics" />
+
+                <ImageButton
+                    android:id="@+id/ibut_dengue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/but_form_dengue" />
+
+                <ImageButton
+                    android:id="@+id/ibut_transmission"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/but_form_transmission" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/ibut_symptoms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/but_form_symptoms" />
+
+                <ImageButton
+                    android:id="@+id/ibut_treatment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/but_form_treatment" />
+
+                <ImageButton
+                    android:id="@+id/ibut_prevention"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/but_form_prevention" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tblr_botmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/mobuzz_blue"
+        android:gravity="center" >
+
+        <RadioGroup
+            android:id="@+id/rdg_main_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rdb_home"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/xml_radio_bg_home"
+                android:button="@android:color/transparent"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rdb_profile"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/xml_radio_bg_profile"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rdb_enquiry"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/xml_radio_bg_info"
+                android:button="@android:color/transparent" />
+        </RadioGroup>
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BreedingsiteHistoryVC doProcessUpdateResponse:flag:]:BreedingsiteHistoryVC.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[jsonString rangeOfString:@&quot;{\&quot;status\&quot;&quot; options:NSCaseInsensitiveSearch].location">
+            </PersistentString>
+            <PersistentString
+               value = "[jsonString caseInsensitiveCompare:@&quot;{\&quot;status\&quot;:&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,458 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiEducationSubpageSpread" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp" >
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_title1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_para1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_para1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_para1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_para2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_para2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_para2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_para3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_para3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_para3"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/img_education_transmission_blood" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_title2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_title2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_para4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_para4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_para4"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_para5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_spread_para5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_spread_para5"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_spread_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp" >
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/img_education_transmission_mosquito" />
+
+                </TableRow>
+            </TableLayout>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_para6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" >
+
+                <TextView
+                    android:id="@+id/txt_dengue_spread_para6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/dengue_spread_para6"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp" >
+
+            </TableLayout>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_dengue_spread_title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/dengue_spread_title3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_title4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txt_dengue_spread_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="@string/dengue_spread_title4"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_img1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_watercontainers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_watercontainers" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_plants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_plants" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_flowerpotplants"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_flowerpotplants" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_img2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_ornaments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_ornaments" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_canvasplasticsheets"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_canvasplasticsheets" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_toiletbowl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_toiletbowl" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_img3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_watertankfortaps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_watertankfortaps" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_draincovers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_draincovers" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_aircontray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_aircontray" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_title5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/txt_dengue_spread_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/dengue_spread_title5"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_img4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_discardedcontainers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_discardedcontainers" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_gullytraps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_gullytraps" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_opencloseddrains"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_opencloseddrains" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_dengue_spread_img5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:visibility="visible" >
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_corridorgullies"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_corridorgullies" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_canvasplasticsheets2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_canvasplasticsheets" />
+
+                <ImageView
+                    android:id="@+id/imgv_education_transmission_watercatchment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_transmission_watercatchment" />
+            </TableRow>
+          
+            
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

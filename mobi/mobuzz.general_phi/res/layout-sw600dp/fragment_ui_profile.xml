@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UiProfileActivity" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_profile" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tblr_colorcode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:weightSum="5.0"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tvw_sp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+            
+                <ImageButton
+                    android:id="@+id/ibut_profile_logout"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_profile_logout" />
+                
+                <TextView
+                android:id="@+id/tvw_sp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+                
+                <ImageButton
+                    android:id="@+id/ibut_form_profile_edit"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_profile_edit" />
+
+                <TextView
+                android:id="@+id/tvw_sp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+                
+        </TableRow>
+    </LinearLayout>
+
+</RelativeLayout>

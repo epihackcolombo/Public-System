@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".UiProfileActivity" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_profile" />
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tblr_colorcode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:weightSum="5.0"
+            android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/img_empty_left"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:background="@color/mobuzz_ash"
+                    android:maxHeight="50dp"
+                    android:maxWidth="50dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_empty" />
+
+                <ImageButton
+                    android:id="@+id/ibut_profile_logout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".84"
+                    android:background="@color/mobuzz_ash"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_profile_logout" />
+                
+                <ImageButton
+                    android:id="@+id/img_empty_middle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.1"
+                    android:background="@color/mobuzz_ash"
+                    android:maxHeight="50dp"
+                    android:maxWidth="50dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_empty" />
+                
+                <ImageButton
+                    android:id="@+id/ibut_form_profile_edit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".84"
+                    android:background="@color/mobuzz_ash"
+                    android:maxHeight="50dp"
+                    android:maxWidth="50dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_profile_edit" />
+
+                <ImageButton
+                    android:id="@+id/img_empty_right"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.2"
+                    android:background="@color/mobuzz_ash"
+                    android:maxHeight="50dp"
+                    android:maxWidth="50dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/but_form_empty" />
+
+        </TableRow>
+    </LinearLayout>
+
+</RelativeLayout>

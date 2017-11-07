@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblr_msg_action"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="@color/mobuzz_ash"
+    android:gravity="center" >
+
+    <TableRow
+        android:id="@+id/tblr_msg_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/mobuzz_yellow" >
+
+        <TextView
+            android:id="@+id/txt_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tblr_msg_action_but"
+        android:layout_below="@+id/tblr_msg_title"
+        android:fillViewport="false" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date &amp; Time:  "
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/mobuzz_yellow" />
+
+                <TextView
+                    android:id="@+id/txt_msgd_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <ImageView
+                android:id="@+id/imageViewBS"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/bg_transparent" />
+
+            <ImageButton
+                android:id="@+id/ibut_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/mobuzz_ash"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_icon_download_enable" />
+            
+            <Button
+                android:id="@+id/but_actimage"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/xml_button"
+                android:height="45dp"
+                android:minHeight="45dp"
+                android:padding="5dp"
+                android:text="download full image"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp"
+                android:visibility="gone" />
+            
+            <Button
+                android:id="@+id/but_saveimage"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/xml_button"
+                android:height="45dp"
+                android:minHeight="45dp"
+                android:padding="5dp"
+                android:text="Save image locally"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp"
+                android:visibility="gone" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="GPS Location (N,E):"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <TextView
+                android:id="@+id/txt_msgd_gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="21dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/txtv_ward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="CMC ward:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <Button
+                android:id="@+id/but_msgd_ward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/xml_button_spinner"
+                android:gravity="left|center_vertical"
+                android:minWidth="200dp"
+                android:text="ward"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textColorHint="@color/mobuzz_gray"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/breedingsite_detail_address"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <TextView
+                android:id="@+id/txt_msgd_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/breedingsite_detail_remark"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <TextView
+                android:id="@+id/txt_msgd_remark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/breedingsite_detail_assessment"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <TextView
+                android:id="@+id/txt_msgd_assessment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="CMC message:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <Button
+                android:id="@+id/but_msgd_cmcmessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/xml_button_spinner"
+                android:gravity="left|center_vertical"
+                android:minWidth="200dp"
+                android:text="cmc action          "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textColorHint="@color/mobuzz_gray"
+                android:textSize="21dp" />
+
+            <TextView
+                android:id="@+id/txt_callback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/breedingsite_detail_calluser"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/mobuzz_yellow" />
+
+            <LinearLayout
+                android:id="@+id/lnlout_calluser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+                
+                <ImageView
+                            android:id="@+id/imgv_tel_moh_doc"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/but_call"
+                            android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txt_msgd_calluser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="21dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:text=" " />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/tblr_msg_action_but"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp" >
+
+        <Button
+            android:id="@+id/btn_msg_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/mobuzz_blue"
+            android:text="Cancel"
+            android:textColor="@color/mobuzz_yellow"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_msg_update"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@color/mobuzz_blue"
+            android:text="Update"
+            android:textColor="@color/mobuzz_yellow"
+            android:textSize="18sp" />
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,242 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiEducationSubpagePrevention" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            
+            <TableRow
+                android:id="@+id/tblr_dengue_prevention_title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_title1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/dengue_prevention_title1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_prevention_1" />
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/dengue_prevention_para1"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para3"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para4"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para5"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+            </TableLayout>
+
+            <TableRow
+                android:id="@+id/TableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="25dp" >
+
+                <ImageView
+                    android:id="@+id/ImageView01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/img_education_prevention_2" />
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para6"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para7"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para8"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_dengue_prevention_para9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/txt_dengue_prevention_para9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dengue_prevention_para9"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

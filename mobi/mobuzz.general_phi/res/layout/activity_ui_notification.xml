@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mobuzz_ash"
+    tools:context=".UiHotspotmapReportsActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollv_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtv_title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="Mo-Buzz Reminder"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtv_para4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Remind me at:"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TimePicker
+                    android:id="@+id/timp_notification"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@color/mobuzz_yellow" />
+
+                <Button
+                    android:id="@+id/but_start"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/xml_button"
+                    android:onClick="startAlarm"
+                    android:padding="5dp"
+                    android:text="Start Notification"
+                    android:width="200dp" />
+
+                <Button
+                    android:id="@+id/butn_stop"
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/xml_button"
+                    android:onClick="cancelAlarm"
+                    android:padding="5dp"
+                    android:text="Stop Notification"
+                    android:width="200dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtv_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Start/Set Mo-Buzz daily reminder"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtv_para1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.	Select the time you want to put the reminder to"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+            <TextView
+                android:id="@+id/txtv_para2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="2.	Press “Start Notification” button"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+            <TextView
+                android:id="@+id/txtv_para3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="3.	Reboot your device"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+            <TextView
+                android:id="@+id/txtv_para5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Note: After rebooting your device, you will get daily remind in the notification bar. By clicking the notification, you can check new complaints allocated for you."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+            <TextView
+                android:id="@+id/txtv_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="Stop Mo-Buzz daily reminder"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/txtv_para6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="1.	Press “Stop Notification” button"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+            <TextView
+                android:id="@+id/txtv_para7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="5dp"
+                android:text="2.	Reboot your device"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

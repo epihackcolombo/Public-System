@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mapStreet"
+        android:numericShortcut="1"
+        android:title="Street View" />
+
+    <item
+        android:id="@+id/mapSat"
+        android:numericShortcut="2"
+        android:title="Satellite View" />
+
+    <item
+        android:id="@+id/mapHybrid"
+        android:numericShortcut="3"
+        android:title="Hybrid View" />
+
+</menu>

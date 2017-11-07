@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Statistics -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_title" android:layout_height="wrap_content" name="dengue_statistics_title">සංඛ්‍යාලේඛණ</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para1" android:layout_height="wrap_content" name="dengue_statistics_para1">ලෝක ජනගහනයේ අඩක් පමණ ඩෙංගු අවදානමින් පසු වෙති.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para2" android:layout_height="wrap_content" name="dengue_statistics_para2" formatted="false"></string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para3" android:layout_height="wrap_content" name="dengue_statistics_para3" formatted="false">ප්‍රතිකාර කල විට ඩෙංගු උනට 2 සිට 5% දක්වා වූ මරණ ප්‍රතිශතයක් ඇත.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para4" android:layout_height="wrap_content" name="dengue_statistics_para4" formatted="false">ප්‍රතිකාර නොකල විට මරණ සංඛ්‍යාව 50% දක්වා වැඩිවෙයි.</string>  
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para5" android:layout_height="wrap_content" name="dengue_statistics_para5">2010 සිට 2013 දක්වා කාලපරිඡේදය තුල කොළඹ ඩෙංගු ලෙඩුන් ප්‍රමාණය 81.5% ක වර්ධනයක් සිදු වී ඇත.</string>
+	
+    <!-- About Dengue -->
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_title" android:layout_height="wrap_content" name="about_dengue_title">ඩෙංගු</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para1" android:layout_height="wrap_content" name="about_dengue_para1">ඩෙංගු නොහොත් ඩෙංගු උණ යනු වෛරසයකින් හට ගන්නා වූ රෝගයක් වන අතර, ඊඩීස් මදුරුවෙකු දෂ්ඨ කිරීමෙන් එය පැතිරෙයි.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para2" android:layout_height="wrap_content" name="about_dengue_para2">දැනට ඩෙංගු සුව කිරීම සදහා ඖෂධයක් හෝ එන්නතක් නොමැත. එයින් බේරීමේ එකම මාර්ගය වන්නේ ඊඩීස් මදුරැවන් බෝ වීම වැලැක්වීමය.</string>
+	
+	<!-- Dengue Spread -->
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title3" android:layout_height="wrap_content" name="dengue_spread_title3">අවදානම් ප්‍රදේශ</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title4" android:layout_height="wrap_content" name="dengue_spread_title4">නිවහන</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title5" android:layout_height="wrap_content" name="dengue_spread_title5">ප්‍රසිද්ධ ප්‍රදේශ</string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title1" android:layout_height="wrap_content" name="dengue_spread_title1">ඩෙංගු පැතිරෙන්නේ කෙසේද?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para1" android:layout_height="wrap_content" name="dengue_spread_para1">මිනිසාගෙන් මදුරුවාට සහ මදුරුවාගෙන් මිනිසාට ඩෙංගු බෝ වීම සිදු වේ.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para2" android:layout_height="wrap_content" name="dengue_spread_para2"><![CDATA[<u>මදුරුවාගෙන් මිනිසාට</u>: විෂබීජ ශරීරගත වී ඇති ගැහැනු මදුරුවෙකු දෂ්ඨ කල විට වෛරසය මිනිසුන්ට ශරීර ගත වේ.]]></string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para3" android:layout_height="wrap_content" name="dengue_spread_para3"><![CDATA[<u>මිනිසාගෙන් මදුරුවාට</u>: විෂබීජය ශරීර ගතවී නැති මදුරුවෙකු වෛරසය ශරීර ගතවී ඇති සහ එය ඔවුන් තුල වර්ධනය වී ඇති මිනිසෙකුට දෂ්ඨ කළ විට එය මදුරුවාට බෝ වෙයි. රෝගියෙකු දෂ්ඨ කිරීමෙන් සතියකට පමණ පසු මදුරුවා අක්‍රිය වෙයි.]]></string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title2" android:layout_height="wrap_content" name="dengue_spread_title2">ඊඩීස් මදුරුවන් හදුනා ගන්නේ කෙසේද?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para4" android:layout_height="wrap_content" name="dengue_spread_para4">ශරීරයෙහි ඇති කළු සහ සුදු ලප වලින් ඊඩීස් මදුරුවෙකු හදුනා ගත හැකිය.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para5" android:layout_height="wrap_content" name="dengue_spread_para5">ඊඩීස් මදුරුවෙකු දෂ්ඨ කිරීමේ ප්‍රවනතාවය දක්වන්නේ අළුයම හෝ සවස් භාගයේය. එබැවින් මෙම කාලයන් තුලදී වඩාත් ප්‍රෙව්ශම් වන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para6" android:layout_height="wrap_content" name="dengue_spread_para6">ඩෙංගු මදුරුවෙකු මේ ආකාරයේය.</string>
+       
+    <!-- Dengue Symptoms -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para1" android:layout_height="wrap_content" name="dengue_symptoms_para1">හදිසියේ හටගන්නා තද උණ (දින 2 සිට 7 දක්වා).</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para2" android:layout_height="wrap_content" name="dengue_symptoms_para2">ඇසේ පසුපසින් වේදනාව සහිත හිස රුදාව.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para3" android:layout_height="wrap_content" name="dengue_symptoms_para3">පලු මතු වීම.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para4" android:layout_height="wrap_content" name="dengue_symptoms_para4">මස්පිඩු  සහ හන්දි වේදනාව.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para5" android:layout_height="wrap_content" name="dengue_symptoms_para5">නිදිමත සහ වමනය.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para6" android:layout_height="wrap_content" name="dengue_symptoms_para6">අමතර රෝග ලක්ෂණ වන්නේ නාසයෙන් හෝ විදුරු මස් වලින් රුධිරය වහනය වීම, දුඹුරු - කළු වමනය හෝ අසූචි පිටවීම, තද බල ලෙස උදරයේ වේදනාව, ශීතල බව හෝ ශරීරයේ මලානික ගතිය, අපහසු බව සහ නිදිමත.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para7" android:layout_height="wrap_content" name="dengue_symptoms_para7">රෝගීන්ගෙන් බොහෝ දෙනෙකු  දින 3 – 4 කින් සුවපත් වන අතර තදබල අවස්ථාවන්හිදී එය මරණයටද තුඩු දිය හැකිය.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_title1" android:layout_height="wrap_content" name="dengue_symptoms_title1">ඩෙංගු රෝග ලක්ෂණ</string>
+    
+    <!-- Dengue Treatment -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title1" android:layout_height="wrap_content" name="dengue_treatment_title1">ප්‍රතිකාර</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para1" android:layout_height="wrap_content" name="dengue_treatment_para1">සුදුසුකම් ලත් වෛද්‍යවරයෙකු හමුවන්න!</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para2" android:layout_height="wrap_content" name="dengue_treatment_para2">වෛද්‍යවරයා විසින් ලබාදි ඇති ඖෂධ හැරුන විට වෙනත් කිසිදු ඖෂධයක් භාවිතා නොකරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para3" android:layout_height="wrap_content" name="dengue_treatment_para3">හැකි පමණ විවේකීව සිටින්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para4" android:layout_height="wrap_content" name="dengue_treatment_para4">වතුර වැඩි ප්‍රමාණයක් පානය කරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para5" android:layout_height="wrap_content" name="dengue_treatment_para5">පෝෂ්‍යදායක ආහාර අනුභව කරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para6" android:layout_height="wrap_content" name="dengue_treatment_para6">වෛරසය පැතිරීමට ඉඩ ඇති පාසල්, රැකියාවට හෝ වෙනත් ස්ථාන වලට යාමෙන් වලකින්න.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title2" android:layout_height="wrap_content" name="dengue_treatment_title2">කොළඹ නගරයේ රෝහල්</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para7" android:layout_height="wrap_content" name="dengue_treatment_para7"><a href="https://maps.google.lk/maps?q=colombo+hospitals&amp;sll=6.9215305,79.8648533&amp;spn=0.2617848,0.351645&amp;t=m&amp;hq=hospitals&amp;hnear=colombo,+Western+Province">► සිතියම බාහිරව විවෘත කරන්න!</a></string> 
+	
+    <!-- Dengue Prevention -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_title1" android:layout_height="wrap_content" name="dengue_prevention_title1">වලකින්නේ කෙසේද?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para1" android:layout_height="wrap_content" name="dengue_prevention_para1">ඩෙංගු මදුරුවන් බෝවන්නේ පිරිසිදු ජලය ඇති ස්ථානයන්හිය. පිරිසිදු ජලය සහිත බදුන් අතහැර නොදමන්න. ඒවා ඊඩීස් මදුරුවන් බෝවන ස්ථාන විය හැකි බැවිනි.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para2" android:layout_height="wrap_content" name="dengue_prevention_para2">භාවිතා නොකරන අවස්ථාවන්හි බදුන් ආවරණ කර තබන්න. එසේ නැතහොත් ඒවා නොපිට හරවා තබන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para3" android:layout_height="wrap_content" name="dengue_prevention_para3">මල් පෝච්චි වල තිබෙන ජලය නිතර මාරු කරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para4" android:layout_height="wrap_content" name="dengue_prevention_para4">සුරතල් සතුන්ට තබන ජලය නිතර මාරු කරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para5" android:layout_height="wrap_content" name="dengue_prevention_para5">ඔබ මාළු ඇති කරන්නෙකු නම් මදුරුවන් අනුභව කරන කුඩා මාළුවන් ලබා ගැනීම පිලිබදව සිතා බලන්න.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para6" android:layout_height="wrap_content" name="dengue_prevention_para6">හිස් භාජන (අයිස් ක්‍රීම් කෝප්ප, පොල් කටු, පොලිතින් මළු ආදිය) විවෘත පරිසරයට විසි කිරීමෙන් වළකින්න. වර්ෂාව අවස්ථාවලදී ඒවා තුල ජලය රැදෙයි.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para7" android:layout_height="wrap_content" name="dengue_prevention_para7">කානු අවහිර වන කොළ සහ අපද්‍රව්‍ය ඉවත් කරන්න.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para8" android:layout_height="wrap_content" name="dengue_prevention_para8">කිසියම් අවහිර වීමක් නොවන බවට සහතික වීම සදහා පීලි සුද්ධ කරන්න.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para9" android:layout_height="wrap_content" name="dengue_prevention_para9">වහලවල් වල සහ උද්‍යානවල ඇති ටයර් වැලිවලින් පුරවා ඒවා තුල ජලය රැදීමෙන් වලක්වන්න.</string>
+    
+    
+</resources>

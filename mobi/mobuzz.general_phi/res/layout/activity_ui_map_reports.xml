@@ -1,0 +1,188 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mobuzz_ash"
+    tools:context=".UiHotspotmapReportsActivity" >
+
+    <fragment
+        android:id="@+id/googlemap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/scrollv_top"
+        android:layout_margin="2dp"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <ScrollView
+        android:id="@+id/scrollv_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/txtv_type"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Report Status:"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <TableRow
+                            android:id="@+id/tableRow3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <CheckBox
+                                android:id="@+id/ckb_w1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="New "
+                                android:textColor="@color/red"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:id="@+id/txt_space1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:id="@+id/txt_divider1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="|"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:visibility="invisible" />
+
+                            <CheckBox
+                                android:id="@+id/ckb_w2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Accepted"
+                                android:textColor="@color/green"
+                                android:textSize="18dp" />
+                        </TableRow>
+
+                        <TableRow
+                            android:id="@+id/tableRow4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" >
+
+                            <CheckBox
+                                android:id="@+id/ckb_w3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="7dp"
+                                android:layout_weight="1"
+                                android:text="Rejected"
+                                android:textColor="@color/grey"
+                                android:textSize="18dp" />
+
+                            <TextView
+                                android:id="@+id/txt_space2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+
+                            <TextView
+                                android:id="@+id/txt_divider2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="|"
+                                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                            <CheckBox
+                                android:id="@+id/ckb_hotspots"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Hotspots  " />
+                        </TableRow>
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txtv_dates"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="Report Period:"
+                    android:textSize="18dp" />
+
+                <Button
+                    android:id="@+id/but_datefrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:text="From" />
+
+                <Button
+                    android:id="@+id/but_dateto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/apptheme_edit_text_holo_light"
+                    android:text="To"
+                    android:textSize="18dp" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txt_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mobuzz_ash" />
+
+    <TextView
+        android:id="@+id/txt_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/mobuzz_ash" />
+
+</RelativeLayout>

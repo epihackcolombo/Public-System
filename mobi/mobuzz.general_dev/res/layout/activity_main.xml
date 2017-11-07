@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mobuzz_ash"
+    android:gravity="center"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:alpha="0.4"
+        android:gravity="center"
+        android:src="@drawable/splash" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txt_activate_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="This application is under beta testing. Please enter activation code to unlock the session."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/mobuzz_blue" />
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <EditText
+                android:id="@+id/edt_code"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/apptheme_edit_text_holo_light"
+                android:inputType="textPersonName" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/but_activate"
+                android:layout_width="75dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/xml_button_gray"
+                android:text="Activate"
+                android:textColor="@color/mobuzz_gray" />
+
+        </TableRow>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,147 @@
+/* 
+  Localizable.strings
+  mobuzz.ios.general
+
+  Created by Vajira on 1/9/15.
+  Copyright (c) 2015 cosmic. All rights reserved.
+*/
+
+
+//Education materials
+/*-- Statistics --*/
+"dengue_statistics_title" = "Statistics";
+"dengue_statistics_para1" = "About ½ of the world’s population is at risk of dengue.";
+"dengue_statistics_para2" = "";
+"dengue_statistics_para3" = "When treated, dengue hemorrhagic fever has a mortality rate of 2 to 5%.";
+"dengue_statistics_para4" = "When left untreated, the mortality rate is as high as 50%.";
+"dengue_statistics_para5" = "There has been an increase of 81.5% of dengue cases in Colombo from 2010 to 2013.";
+
+/*-- About Dengue --*/
+"about_dengue_title" = "Dengue";
+"about_dengue_para1" = "Dengue or dengue fever is a virus-caused disease transmitted by the Aedes mosquito when it bites.";
+"about_dengue_para2" = "Currently, there is no known drug or vaccine to cure dengue. The best and only way to avoid it is to prevent the Aedes mosquito from breeding.";
+
+/*-- Dengue Spread --*/
+"dengue_spread_title3" = "Danger Sites";
+"dengue_spread_title4" = "Home";
+"dengue_spread_title5" = "Public Areas";
+
+"dengue_spread_title1" = "How does dengue spread?";
+"dengue_spread_para1" = "Dengue spreads in 2 ways, from human to mosquito and from mosquito to human.";
+"dengue_spread_para2" = "<u>Mosquito-to-human</u>: Infected female Aedes mosquitoes pass the virus on to humans when they bite.";
+"dengue_spread_para3" = "<u>Human-to-mosquito</u>: Humans who carry and multiply the virus within them pass it on to uninfected mosquitoes when bitten. The mosquito then becomes infective about a week after biting a patient.";
+
+"dengue_spread_title2" = "How to spot an Aedes mosquitoes?";
+"dengue_spread_para4" = "You can recognize an Aedes mosquito by the black and white stripes on its body.";
+"dengue_spread_para5" = "The Aedes mosquito tends to bite at dawn or dusk, so be extra careful during these times.";
+"dengue_spread_para6" = "This is what an Aedes mosquito looks like.";
+
+/*-- Dengue Symptoms --*/
+"dengue_symptoms_para1" = "Sudden high fever (from 2 to 7 days).";
+"dengue_symptoms_para2" = "Headache with pain from behind the eye.";
+"dengue_symptoms_para3" = "Outbreak of rashes.";
+"dengue_symptoms_para4" = "Muscle and joint pains.";
+"dengue_symptoms_para5" = "Nausea and vomiting.";
+"dengue_symptoms_para6" = "Additional symptoms may include nose or gum bleeding, brown-black vomit or faeces, severe stomach pain, coldness or paleness of body, restlessness and drowsiness.";
+"dengue_symptoms_para7" = "Most patients recover from dengue fever in about 3 or 4 days, but it may lead to death in serious cases.";
+"dengue_symptoms_title1" = "Dengue Symptoms";
+
+/*-- Dengue Treatment --*/
+"dengue_treatment_title1" = "Treatment";
+"dengue_treatment_para1" = "Consult a qualified doctor!";
+"dengue_treatment_para2" = "Do not consume medication other than what your doctor has prescribed. Misuse of drugs can cause internal bleeding.";
+"dengue_treatment_para3" = "Get plenty of rest.";
+"dengue_treatment_para4" = "Drink more water.";
+"dengue_treatment_para5" = "Eat nutritious meals.";
+"dengue_treatment_para6" = "Avoid school, work or any other places where you may spread the virus.";
+"dengue_treatment_title2" = "Hospitals in Colombo City";
+"dengue_treatment_para7" = "<a href=\"https://maps.google.lk/maps?q=colombo+hospitals&amp;sll=6.9215305,79.8648533&amp;spn=0.2617848,0.351645&amp;t=m&amp;hq=hospitals&amp;hnear=colombo,+Western+Province\">► Open the map externally!</a>";
+
+/*-- Dengue Prevention --*/
+"dengue_prevention_title1" = "How to Prevent";
+"dengue_prevention_para1" = "Dengue mosquitoes breed where there is clean water. Do not leave containers with clean water as they can potentially turn into breeding grounds for Aedes mosquitoes.";
+"dengue_prevention_para2" = "Cover containers or overturn them when not in use.";
+"dengue_prevention_para3" = "Change the water in vases frequently.";
+"dengue_prevention_para4" = "Change the water for feeding pets frequently.";
+"dengue_prevention_para5" = "If you rear fishes, consider getting small, mosquito-eating fishes.";
+"dengue_prevention_para6" = "Avoid throwing empty food containers (e.g. ice cream cups, coconut shells, Polythene bags) in the open. They collect water when it rains.";
+"dengue_prevention_para7" = "Remove leaves and other debris that block drains.";
+"dengue_prevention_para8" = "Clean gutters to ensure there is no blockage.";
+"dengue_prevention_para9" = "Fill tyres on roof tops and in gardens with sand to prevent water from collecting in them.";
+
+
+//Mo-Buzz information
+/*-- About Mo-Buzz --*/
+"about_mobuzz_title1" = "Mo-Buzz Dengue*";
+"about_mobuzz_para1_1" = "Dengue is a mosquito-borne infectious disease that affects millions of people around the world, and especially so in Asia.";
+"about_mobuzz_para1_2" = "So far, dengue prevention has relied on traditional strategies that are largely reactive and use outdated modes of communication.";
+"about_mobuzz_para1_3" = "We believe that the power of mobile phones and the Internet, if used in an innovative way, can go a long way in helping people and public health authorities combat the dengue menace.";
+"about_mobuzz_title2" = "Welcome to Mo-Buzz dengue!";
+"about_mobuzz_para2_1" = "Mo-Buzz Dengue is a cutting-edge, integrated mobile phone and web-based system designed to help you protect yourself from dengue.";
+"about_mobuzz_para2_2" = "The system combines the power of advanced geospatial mapping with crowdsourcing technology and health education in a simple, easy-to-use manner.";
+"about_mobuzz_para2_3" = "With Mo-Buzz Dengue you can now	";
+"about_mobuzz_para2_4" = "Use hotspots map to keep track of those parts of your city that are most affected by dengue. You can use this information to take preventive steps to protect yourself from mosquitoes if you are living in, or traveling to these areas.";
+"about_mobuzz_para2_5" = "Complain dengue breeding sites to the Colombo Municipal Council (CMC) using simple forms on your mobile app that are automatically geo-tagged. This will help the CMC to monitor how dengue is spreading in real-time and alert them to take necessary steps quickly.";
+"about_mobuzz_para2_6" = "Learn more about dengue, how it is transmitted, how many people it affects, and how to protect yourself, using our graphics-based dengue education module.";
+"about_mobuzz_para3" = "*Mo-Buzz Dengue is a joint project between Nanyang Technological University (NTU), Colombo Municipal Council (CMC), Mobitel and University of Colombo School of Computing (UCSC).";
+
+
+//COSMIC information
+/*-- About Cosmic --*/
+"about_cosmic_title2" = "COSMIC";
+"about_cosmic_para2_1" = "The Centre of Social Media Innovations for Communities (COSMIC) is a collaborative initiative among three universities: Nanyang Technological University (NTU, Singapore), National University of Singapore (NUS, Singapore), and the Indian Institute of Technology Bombay, Mumbai (IITB, India). Mo-Buzz Dengue is an initiative of COSMIC NTU.";
+"about_cosmic_para2_2" = "This research is supported by the National Research Foundation, Prime Minister\'s Office, Singapore under its International Research Centres in Singapore Funding Initiative and administered by the Interactive Digital Media Programme Office.";
+"about_cosmic_para2_3" = "The Centre aims to empower the next billion people in the community through social media innovations that improve the way they live, work, and play.";
+"about_cosmic_para2_4" = "";
+"about_cosmic_para2_5" = "";
+
+
+//Frequently Asked Questions
+/*-- FAQ --*/
+"faq_mobuzz_title1" = "What is Mo-Buzz Dengue?";
+"faq_mobuzz_para1" = "Mo-Buzz Dengue is a simple innovation that can help you protect yourself from dengue using your phone.";
+"faq_mobuzz_title3" = "How can this app protect me from dengue?";
+"faq_mobuzz_para3_1" = "In three ways:";
+"faq_mobuzz_para3_2_1" = "<u>hotspots map</u>, the app will tell you which parts of Colombo are most affected by dengue for a certain period.";
+"faq_mobuzz_para3_2_2" = "If you live in these parts of the city, or if you plan to commute to/from these parts, you know that you will need to take extra precautions (like draining stagnant water and/or wearing full-sleeved clothing).";
+"faq_mobuzz_para3_3_1" = "You can use the <u>complaining module</u> to send information about mosquito breeding sites in the city.";
+"faq_mobuzz_para3_3_2" = "This will help CMC to get real-time information about where dengue is spreading.";
+"faq_mobuzz_para3_3_3" = "They can use your information to take necessary actions in a quick, efficient manner.";
+"faq_mobuzz_para3_3_4" = "So, yes, be vigilant, and be on the lookout for potential breeding sites!";
+"faq_mobuzz_para3_4_1" = "This app has a detailed <u>information module about dengue.</u>";
+"faq_mobuzz_para3_4_2" = "This module will help you to have a better understanding for dengue and the mosquito that spreads dengue.";
+"faq_mobuzz_para3_4_3" = "We have also listed specific steps that you can perform to prevent yourself and your loved ones from dengue.";
+"faq_mobuzz_para3_5" = "";
+"faq_mobuzz_title4" = "How precise are the hotspots map?";
+"faq_mobuzz_para4" = "These map are based on reliable and precise dengue information collected by the CMC.";
+"faq_mobuzz_title5" = "Why should I inform CMC about breeding sites?";
+"faq_mobuzz_para5_1" = "Public health being one of its key priorities, the CMC tries its best to protect you from dengue. But, as a citizen, you can use this app to further strengthen CMC’s efforts.";
+"faq_mobuzz_para5_2" = "If many citizens like you complain breeding sites, this can go a long way in helping CMC get an idea about new incidences of dengue and where it’s spreading.";
+"faq_mobuzz_para5_3" = "Think of it this way. By doing something as simple as this, you are not only helping the CMC with more information, but you are also protecting yourself, your family and friends, from dengue!";
+"faq_mobuzz_title6" = "How can I complain breeding sites?";
+"faq_mobuzz_para6_1" = "You can complain a breeding site using the “Breeding Sites Complaint” module.";
+"faq_mobuzz_para6_2" = "You can first choose “Form”, and then use your phone camera to take a picture of the breeding site.";
+"faq_mobuzz_para6_3" = "The application geo-tags your picture automatically.";
+"faq_mobuzz_para6_4" = "You can send it to CMC by just clicking on “Submit”.";
+"faq_mobuzz_title7" = "Once I send the complaints, what information does the CMC receive?";
+"faq_mobuzz_para7_1" = "The CMC directly receives all the complaints sent by users like yourself.";
+"faq_mobuzz_para7_2" = "This means, they receive a picture of the breeding site, and the exact location from where the picture was sent.";
+"faq_mobuzz_para7_3" = "Such specific information adds immensely to the accuracy of CMC’s real-time disease intelligence.";
+"faq_mobuzz_para7_4" = "Based on such information the CMC can take specific steps to address the problem of breeding sites and protect you from dengue.";
+"faq_mobuzz_title8" = "How does CMC know that the complaints they get from people like me are reliable and not spam?";
+"faq_mobuzz_para8_1" = "We have worked with the CMC to design a mechanism to deal with any potential spamming issues.";
+"faq_mobuzz_para8_2" = "Essentially, each complaint submitted will be screened and validated by a CMC official assigned to the particular area. User accounts from where the system receives spam or false inputs repeatedly (repeat offenders) will be blocked from further use.";
+"faq_mobuzz_title9" = "Who is eligible to join Mo-Buzz Dengue?";
+"faq_mobuzz_para9_1" = "Anyone in Sri Lanka with an Android or iOS device can sign up to the system and utilize the dengue education materials on our app.";
+"faq_mobuzz_para9_2" = "However, the hotspots map pertain to dengue cases in areas within the CMC’s jurisdiction, and the CMC will only respond to complaints of breeding sites received from within these areas.";
+"faq_mobuzz_title10" = "My friend/relative has an iPhone. Why is there no iOS version of Mo-Buzz Dengue?";
+"faq_mobuzz_para10" = "We were expecting this question! Our research has shown that most smartphone users in Colombo are Android users. But yes, we also plan to launch an iOS version in the future.";
+"faq_mobuzz_title11" = "Why do I need to fill the profile details? How is this information useful?";
+"faq_mobuzz_para11_1" = "Your profile details will be used for the purpose of research and designing public health strategies.";
+"faq_mobuzz_para11_2" = "CMC’s officers might use these details to contact you as part of the screening and validation process in case you complain a breeding site. However, we have ensured utmost privacy and confidentiality of your profile details which will not be shared with any third-party for commercial use.";
+"faq_mobuzz_title12" = "How do I update my profile?";
+"faq_mobuzz_para12" = "If you would like to edit your profile, you can do so by clicking on “Profile” tab after signing in.";
+"faq_mobuzz_title13" = "Where can I get more scientific information about Mo-Buzz?";
+"faq_mobuzz_para13" = "You can get more information about the scientific concept behind Mo-Buzz, our team of researchers and collaborations, and everything else you need to know by clicking on this link: <a href=\"http://www.mo-buzz.org/srilanka/\">http://www.mo-buzz.org/srilanka/</a> ";
+"faq_mobuzz_title14" = "How can I get in touch with Mo-Buzz?";
+"faq_mobuzz_para14" = "In case of any issues, or for providing feedback, you can contact Mo-Buzz by sending an email to: <a href=\"mailto:srilanka@mo-buzz.org\">srilanka@mo-buzz.org</a> ";

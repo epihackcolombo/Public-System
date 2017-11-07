@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Statistics -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_title" android:layout_height="wrap_content" name="dengue_statistics_title">Statistics</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para1" android:layout_height="wrap_content" name="dengue_statistics_para1">About ½ of the world’s population, is at risk of dengue.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para2" android:layout_height="wrap_content" name="dengue_statistics_para2" formatted="false"></string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para3" android:layout_height="wrap_content" name="dengue_statistics_para3" formatted="false">When treated, dengue hemorrhagic fever has a mortality rate of 2 to 5%.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para4" android:layout_height="wrap_content" name="dengue_statistics_para4" formatted="false">When left untreated, the mortality rate is as high as 50%.</string>  
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para5" android:layout_height="wrap_content" name="dengue_statistics_para5">There has been an increase of 81.5% of dengue cases in Colombo from 2010 to 2013.</string>
+	
+    <!-- About Dengue -->
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_title" android:layout_height="wrap_content" name="about_dengue_title">Dengue</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para1" android:layout_height="wrap_content" name="about_dengue_para1">Dengue or dengue fever is a virus-caused disease transmitted by the Aedes mosquito when it bites.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para2" android:layout_height="wrap_content" name="about_dengue_para2">Currently, there is no known drug or vaccine to cure dengue. The best and only way to avoid it is to prevent the Aedes mosquito from breeding.</string>
+	
+	<!-- Dengue Spread -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title1" android:layout_height="wrap_content" name="dengue_spread_title1">How does dengue spread?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para1" android:layout_height="wrap_content" name="dengue_spread_para1">Dengue spreads in 2 ways, from human to mosquito and from mosquito to human.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para2" android:layout_height="wrap_content" name="dengue_spread_para2"><![CDATA[<u>Mosquito-to-human</u>: Infected female Aedes mosquitoes pass the virus on to humans when they bite.]]></string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para3" android:layout_height="wrap_content" name="dengue_spread_para3"><![CDATA[<u>Human-to-mosquito</u>: Humans who carry and multiply the virus within them pass it on to uninfected mosquitoes when bitten. The mosquito then becomes infective about a week after biting a patient.]]></string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title2" android:layout_height="wrap_content" name="dengue_spread_title2">How to spot an Aedes mosquitoes?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para4" android:layout_height="wrap_content" name="dengue_spread_para4">You can recognize an Aedes mosquito by the black and white stripes on its body.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para5" android:layout_height="wrap_content" name="dengue_spread_para5">The Aedes mosquito tends to bite at dawn or dusk, so be extra careful during these times.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para6" android:layout_height="wrap_content" name="dengue_spread_para6">This is what an Aedes mosquito looks like.</string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title3" android:layout_height="wrap_content" name="dengue_spread_title3">Danger Sites</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title4" android:layout_height="wrap_content" name="dengue_spread_title4">Home</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title5" android:layout_height="wrap_content" name="dengue_spread_title5">Public Areas</string>
+       
+    <!-- Dengue Symptoms -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para1" android:layout_height="wrap_content" name="dengue_symptoms_para1">Sudden high fever (from 2 to 7 days).</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para2" android:layout_height="wrap_content" name="dengue_symptoms_para2">Headache with pain from behind the eye.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para3" android:layout_height="wrap_content" name="dengue_symptoms_para3">Outbreak of rashes.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para4" android:layout_height="wrap_content" name="dengue_symptoms_para4">Muscle and joint pains.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para5" android:layout_height="wrap_content" name="dengue_symptoms_para5">Nausea and vomiting.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para6" android:layout_height="wrap_content" name="dengue_symptoms_para6">Additional symptoms may include nose or gum bleeding, brown-black vomit or faeces, severe stomach pain, coldness or paleness of body, restlessness and drowsiness.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para7" android:layout_height="wrap_content" name="dengue_symptoms_para7">Most patients recover from dengue fever in about 3 or 4 days, but it may lead to death in serious cases.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_title1" android:layout_height="wrap_content" name="dengue_symptoms_title1">Dengue Symptoms</string>
+    
+    <!-- Dengue Treatment -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title1" android:layout_height="wrap_content" name="dengue_treatment_title1">Treatment</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para1" android:layout_height="wrap_content" name="dengue_treatment_para1">Consult a qualified doctor!</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para2" android:layout_height="wrap_content" name="dengue_treatment_para2">Do not consume medicine other than those prescribed by your doctor. Misuse of drugs can cause internal bleeding.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para3" android:layout_height="wrap_content" name="dengue_treatment_para3">Get plenty of rest.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para4" android:layout_height="wrap_content" name="dengue_treatment_para4">Drink more water.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para5" android:layout_height="wrap_content" name="dengue_treatment_para5">Eat nutritious meals.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para6" android:layout_height="wrap_content" name="dengue_treatment_para6">Avoid school, work or any other places where you may spread the virus.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title2" android:layout_height="wrap_content" name="dengue_treatment_title2">Hospitals in Colombo City</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para7" android:layout_height="wrap_content" name="dengue_treatment_para7"><a href="https://maps.google.lk/maps?q=colombo+hospitals&amp;sll=6.9215305,79.8648533&amp;spn=0.2617848,0.351645&amp;t=m&amp;hq=hospitals&amp;hnear=colombo,+Western+Province">► Open the map externally!</a></string> 
+	    
+    <!-- Dengue Prevention -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_title1" android:layout_height="wrap_content" name="dengue_prevention_title1">How to Prevent</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para1" android:layout_height="wrap_content" name="dengue_prevention_para1">Dengue mosquitoes breed where there is clean water. Don’t leave containers where water can collect in them.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para2" android:layout_height="wrap_content" name="dengue_prevention_para2">Cover containers or overturn them when not in use.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para3" android:layout_height="wrap_content" name="dengue_prevention_para3">Change the water in vases frequently.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para4" android:layout_height="wrap_content" name="dengue_prevention_para4">Change the water for feeding pets frequently.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para5" android:layout_height="wrap_content" name="dengue_prevention_para5">If you rear fishes, consider getting small, mosquito-eating fishes.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para6" android:layout_height="wrap_content" name="dengue_prevention_para6">Avoid throwing empty food containers (e.g. ice cream cups, coconut shells, Polythene bags) in the open. They collect water when it rains.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para7" android:layout_height="wrap_content" name="dengue_prevention_para7">Remove leaves and other debris that block drains.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para8" android:layout_height="wrap_content" name="dengue_prevention_para8">Clean gutters to ensure there is no blockage.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para9" android:layout_height="wrap_content" name="dengue_prevention_para9">Fill tyres on roof tops and in gardens with sand to prevent water from collecting in them.</string>
+    
+    
+</resources>

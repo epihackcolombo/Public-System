@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1F16091B65E6B7005D8864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F16081B65E6B7005D8864 /* main.m */; };
+		EF1F160C1B65E6B7005D8864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F160B1B65E6B7005D8864 /* AppDelegate.m */; };
+		EF1F160F1B65E6B7005D8864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F160E1B65E6B7005D8864 /* ViewController.m */; };
+		EF1F16121B65E6B7005D8864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1F16101B65E6B7005D8864 /* Main.storyboard */; };
+		EF1F16141B65E6B7005D8864 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF1F16131B65E6B7005D8864 /* Images.xcassets */; };
+		EF1F16171B65E6B7005D8864 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF1F16151B65E6B7005D8864 /* LaunchScreen.xib */; };
+		EF1F16231B65E6B7005D8864 /* mobuzz_ios_generalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F16221B65E6B7005D8864 /* mobuzz_ios_generalTests.m */; };
+		EF1F16341B65E8D2005D8864 /* GlobalVariableAndMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F16331B65E8D2005D8864 /* GlobalVariableAndMethod.m */; };
+		EF1F16371B65EB0D005D8864 /* ProfileLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F16361B65EB0D005D8864 /* ProfileLoginVC.m */; };
+		EF1F164C1B68B950005D8864 /* ProfileRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF1F164B1B68B950005D8864 /* ProfileRegisterVC.m */; };
+		EF2C3F8C1B8D98CF0060C7E1 /* MainNavHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C3F8B1B8D98CF0060C7E1 /* MainNavHomeVC.m */; };
+		EF2C3F8F1B8D98F50060C7E1 /* MainNavProfileVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C3F8E1B8D98F50060C7E1 /* MainNavProfileVC.m */; };
+		EF2C3F921B8D99200060C7E1 /* MainNavInformationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C3F911B8D99200060C7E1 /* MainNavInformationVC.m */; };
+		EF2C3F9B1B8DA5330060C7E1 /* ProfileEditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2C3F9A1B8DA5330060C7E1 /* ProfileEditVC.m */; };
+		EF3A6D811B958BAB00A56A8D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF3A6D831B958BAB00A56A8D /* Localizable.strings */; };
+		EF3A6D891B95A24000A56A8D /* LocalizedText.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A6D881B95A24000A56A8D /* LocalizedText.m */; };
+		EF3A6D8C1B969E1900A56A8D /* AboutFaqVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A6D8B1B969E1900A56A8D /* AboutFaqVC.m */; };
+		EF3A6D981B983FDB00A56A8D /* AboutCosmicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A6D971B983FDB00A56A8D /* AboutCosmicVC.m */; };
+		EF3A6D9B1B983FF700A56A8D /* AboutMobuzzVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3A6D9A1B983FF700A56A8D /* AboutMobuzzVC.m */; };
+		EF6930751BB9397B00E759A8 /* AboutDengueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6930741BB9397B00E759A8 /* AboutDengueVC.m */; };
+		EF710C671BD34A3B00F78D51 /* MalithiWeb.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF07F2681BC3CBE90091A831 /* MalithiWeb.ttf */; };
+		EF9680BC1BCBA2AC00FD4FD1 /* ProfileRecoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9680BB1BCBA2AC00FD4FD1 /* ProfileRecoverVC.m */; };
+		EF976D311BA9065200B2A96A /* ComplaintDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EF976D301BA9065200B2A96A /* ComplaintDescription.m */; };
+		EFBD27761BB51ED9005CD49C /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD27751BB51ED9005CD49C /* MapVC.m */; };
+		EFBD27791BB5426E005CD49C /* InfoDengueSubVC1Statistics.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD27781BB5426E005CD49C /* InfoDengueSubVC1Statistics.m */; };
+		EFBD277C1BB54299005CD49C /* InfoDengueSubVC2Dengue.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD277B1BB54299005CD49C /* InfoDengueSubVC2Dengue.m */; };
+		EFBD277F1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD277E1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.m */; };
+		EFBD27821BB542C5005CD49C /* InfoDengueSubVC4Symptoms.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD27811BB542C5005CD49C /* InfoDengueSubVC4Symptoms.m */; };
+		EFBD27851BB542D8005CD49C /* InfoDengueSubVC5Treatment.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD27841BB542D8005CD49C /* InfoDengueSubVC5Treatment.m */; };
+		EFBD27881BB542ED005CD49C /* InfoDengueSubVC6Prevention.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBD27871BB542ED005CD49C /* InfoDengueSubVC6Prevention.m */; };
+		EFE5A2821B984AB300883E43 /* BreedingsiteComplaintVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5A2811B984AB300883E43 /* BreedingsiteComplaintVC.m */; };
+		EFE5A2851B984AD800883E43 /* BreedingsiteHistoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5A2841B984AD800883E43 /* BreedingsiteHistoryVC.m */; };
+		EFE5A2881B984B1F00883E43 /* BreedingsiteDetailsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFE5A2871B984B1F00883E43 /* BreedingsiteDetailsVC.m */; };
+		EFE5A28A1B98503E00883E43 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFE5A2891B98503E00883E43 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF1F161D1B65E6B7005D8864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF1F15FB1B65E6B7005D8864 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF1F16021B65E6B7005D8864;
+			remoteInfo = mobuzz.ios.general;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF07F2681BC3CBE90091A831 /* MalithiWeb.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = MalithiWeb.ttf; path = font/MalithiWeb.ttf; sourceTree = "<group>"; };
+		EF1F16031B65E6B7005D8864 /* mobuzz.ios.general.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobuzz.ios.general.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1F16071B65E6B7005D8864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1F16081B65E6B7005D8864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF1F160A1B65E6B7005D8864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF1F160B1B65E6B7005D8864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF1F160D1B65E6B7005D8864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF1F160E1B65E6B7005D8864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF1F16111B65E6B7005D8864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF1F16131B65E6B7005D8864 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF1F16161B65E6B7005D8864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF1F161C1B65E6B7005D8864 /* mobuzz.ios.generalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobuzz.ios.generalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1F16211B65E6B7005D8864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF1F16221B65E6B7005D8864 /* mobuzz_ios_generalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobuzz_ios_generalTests.m; sourceTree = "<group>"; };
+		EF1F16321B65E8D2005D8864 /* GlobalVariableAndMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalVariableAndMethod.h; sourceTree = "<group>"; };
+		EF1F16331B65E8D2005D8864 /* GlobalVariableAndMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVariableAndMethod.m; sourceTree = "<group>"; };
+		EF1F16351B65EB0D005D8864 /* ProfileLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileLoginVC.h; sourceTree = "<group>"; };
+		EF1F16361B65EB0D005D8864 /* ProfileLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileLoginVC.m; sourceTree = "<group>"; };
+		EF1F16381B65FF1F005D8864 /* PopupMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupMessages.h; sourceTree = "<group>"; };
+		EF1F164A1B68B950005D8864 /* ProfileRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileRegisterVC.h; sourceTree = "<group>"; };
+		EF1F164B1B68B950005D8864 /* ProfileRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileRegisterVC.m; sourceTree = "<group>"; };
+		EF2C3F8A1B8D98CF0060C7E1 /* MainNavHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavHomeVC.h; sourceTree = "<group>"; };
+		EF2C3F8B1B8D98CF0060C7E1 /* MainNavHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavHomeVC.m; sourceTree = "<group>"; };
+		EF2C3F8D1B8D98F50060C7E1 /* MainNavProfileVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavProfileVC.h; sourceTree = "<group>"; };
+		EF2C3F8E1B8D98F50060C7E1 /* MainNavProfileVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavProfileVC.m; sourceTree = "<group>"; };
+		EF2C3F901B8D99200060C7E1 /* MainNavInformationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavInformationVC.h; sourceTree = "<group>"; };
+		EF2C3F911B8D99200060C7E1 /* MainNavInformationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavInformationVC.m; sourceTree = "<group>"; };
+		EF2C3F991B8DA5330060C7E1 /* ProfileEditVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileEditVC.h; sourceTree = "<group>"; };
+		EF2C3F9A1B8DA5330060C7E1 /* ProfileEditVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileEditVC.m; sourceTree = "<group>"; };
+		EF3A6D821B958BAB00A56A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF3A6D841B958BBB00A56A8D /* si */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = si; path = si.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF3A6D851B958BCF00A56A8D /* ta-LK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ta-LK"; path = "ta-LK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EF3A6D861B958BD600A56A8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EF3A6D871B95A24000A56A8D /* LocalizedText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizedText.h; sourceTree = "<group>"; };
+		EF3A6D881B95A24000A56A8D /* LocalizedText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizedText.m; sourceTree = "<group>"; };
+		EF3A6D8A1B969E1900A56A8D /* AboutFaqVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutFaqVC.h; sourceTree = "<group>"; };
+		EF3A6D8B1B969E1900A56A8D /* AboutFaqVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutFaqVC.m; sourceTree = "<group>"; };
+		EF3A6D961B983FDB00A56A8D /* AboutCosmicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutCosmicVC.h; sourceTree = "<group>"; };
+		EF3A6D971B983FDB00A56A8D /* AboutCosmicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutCosmicVC.m; sourceTree = "<group>"; };
+		EF3A6D991B983FF700A56A8D /* AboutMobuzzVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutMobuzzVC.h; sourceTree = "<group>"; };
+		EF3A6D9A1B983FF700A56A8D /* AboutMobuzzVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutMobuzzVC.m; sourceTree = "<group>"; };
+		EF6930731BB9397B00E759A8 /* AboutDengueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutDengueVC.h; sourceTree = "<group>"; };
+		EF6930741BB9397B00E759A8 /* AboutDengueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutDengueVC.m; sourceTree = "<group>"; };
+		EF9680B91BC8E83100FD4FD1 /* CMCRegions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMCRegions.h; sourceTree = "<group>"; };
+		EF9680BA1BCBA2AC00FD4FD1 /* ProfileRecoverVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileRecoverVC.h; sourceTree = "<group>"; };
+		EF9680BB1BCBA2AC00FD4FD1 /* ProfileRecoverVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileRecoverVC.m; sourceTree = "<group>"; };
+		EF976D2F1BA9065200B2A96A /* ComplaintDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplaintDescription.h; sourceTree = "<group>"; };
+		EF976D301BA9065200B2A96A /* ComplaintDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplaintDescription.m; sourceTree = "<group>"; };
+		EFBD27741BB51ED9005CD49C /* MapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapVC.h; sourceTree = "<group>"; };
+		EFBD27751BB51ED9005CD49C /* MapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapVC.m; sourceTree = "<group>"; };
+		EFBD27771BB5426E005CD49C /* InfoDengueSubVC1Statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC1Statistics.h; sourceTree = "<group>"; };
+		EFBD27781BB5426E005CD49C /* InfoDengueSubVC1Statistics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC1Statistics.m; sourceTree = "<group>"; };
+		EFBD277A1BB54299005CD49C /* InfoDengueSubVC2Dengue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC2Dengue.h; sourceTree = "<group>"; };
+		EFBD277B1BB54299005CD49C /* InfoDengueSubVC2Dengue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC2Dengue.m; sourceTree = "<group>"; };
+		EFBD277D1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC3Trasmission.h; sourceTree = "<group>"; };
+		EFBD277E1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC3Trasmission.m; sourceTree = "<group>"; };
+		EFBD27801BB542C5005CD49C /* InfoDengueSubVC4Symptoms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC4Symptoms.h; sourceTree = "<group>"; };
+		EFBD27811BB542C5005CD49C /* InfoDengueSubVC4Symptoms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC4Symptoms.m; sourceTree = "<group>"; };
+		EFBD27831BB542D8005CD49C /* InfoDengueSubVC5Treatment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC5Treatment.h; sourceTree = "<group>"; };
+		EFBD27841BB542D8005CD49C /* InfoDengueSubVC5Treatment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC5Treatment.m; sourceTree = "<group>"; };
+		EFBD27861BB542ED005CD49C /* InfoDengueSubVC6Prevention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoDengueSubVC6Prevention.h; sourceTree = "<group>"; };
+		EFBD27871BB542ED005CD49C /* InfoDengueSubVC6Prevention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoDengueSubVC6Prevention.m; sourceTree = "<group>"; };
+		EFE5A2801B984AB300883E43 /* BreedingsiteComplaintVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedingsiteComplaintVC.h; sourceTree = "<group>"; };
+		EFE5A2811B984AB300883E43 /* BreedingsiteComplaintVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedingsiteComplaintVC.m; sourceTree = "<group>"; };
+		EFE5A2831B984AD800883E43 /* BreedingsiteHistoryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedingsiteHistoryVC.h; sourceTree = "<group>"; };
+		EFE5A2841B984AD800883E43 /* BreedingsiteHistoryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedingsiteHistoryVC.m; sourceTree = "<group>"; };
+		EFE5A2861B984B1F00883E43 /* BreedingsiteDetailsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreedingsiteDetailsVC.h; sourceTree = "<group>"; };
+		EFE5A2871B984B1F00883E43 /* BreedingsiteDetailsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreedingsiteDetailsVC.m; sourceTree = "<group>"; };
+		EFE5A2891B98503E00883E43 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF1F16001B65E6B7005D8864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE5A28A1B98503E00883E43 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1F16191B65E6B7005D8864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF1F15FA1B65E6B7005D8864 = {
+			isa = PBXGroup;
+			children = (
+				EFE5A2891B98503E00883E43 /* MapKit.framework */,
+				EF3A6D831B958BAB00A56A8D /* Localizable.strings */,
+				EF1F162D1B65E704005D8864 /* src */,
+				EF3A6D8D1B96CC2900A56A8D /* font */,
+				EF1F162C1B65E6EA005D8864 /* drawable */,
+				EF1F16051B65E6B7005D8864 /* mobuzz.ios.general */,
+				EF1F161F1B65E6B7005D8864 /* mobuzz.ios.generalTests */,
+				EF1F16041B65E6B7005D8864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF1F16041B65E6B7005D8864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F16031B65E6B7005D8864 /* mobuzz.ios.general.app */,
+				EF1F161C1B65E6B7005D8864 /* mobuzz.ios.generalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF1F16051B65E6B7005D8864 /* mobuzz.ios.general */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F160A1B65E6B7005D8864 /* AppDelegate.h */,
+				EF1F160B1B65E6B7005D8864 /* AppDelegate.m */,
+				EF1F160D1B65E6B7005D8864 /* ViewController.h */,
+				EF1F160E1B65E6B7005D8864 /* ViewController.m */,
+				EF1F16101B65E6B7005D8864 /* Main.storyboard */,
+				EF1F16131B65E6B7005D8864 /* Images.xcassets */,
+				EF1F16151B65E6B7005D8864 /* LaunchScreen.xib */,
+				EF1F16061B65E6B7005D8864 /* Supporting Files */,
+			);
+			path = mobuzz.ios.general;
+			sourceTree = "<group>";
+		};
+		EF1F16061B65E6B7005D8864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F16071B65E6B7005D8864 /* Info.plist */,
+				EF1F16081B65E6B7005D8864 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1F161F1B65E6B7005D8864 /* mobuzz.ios.generalTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F16221B65E6B7005D8864 /* mobuzz_ios_generalTests.m */,
+				EF1F16201B65E6B7005D8864 /* Supporting Files */,
+			);
+			path = mobuzz.ios.generalTests;
+			sourceTree = "<group>";
+		};
+		EF1F16201B65E6B7005D8864 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F16211B65E6B7005D8864 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF1F162C1B65E6EA005D8864 /* drawable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = drawable;
+			sourceTree = "<group>";
+		};
+		EF1F162D1B65E704005D8864 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EF976D2E1BA905FD00B2A96A /* plain object class */,
+				EF1F162E1B65E719005D8864 /* util */,
+				EF3A6D961B983FDB00A56A8D /* AboutCosmicVC.h */,
+				EF3A6D971B983FDB00A56A8D /* AboutCosmicVC.m */,
+				EF6930731BB9397B00E759A8 /* AboutDengueVC.h */,
+				EF6930741BB9397B00E759A8 /* AboutDengueVC.m */,
+				EF3A6D8A1B969E1900A56A8D /* AboutFaqVC.h */,
+				EF3A6D8B1B969E1900A56A8D /* AboutFaqVC.m */,
+				EF3A6D991B983FF700A56A8D /* AboutMobuzzVC.h */,
+				EF3A6D9A1B983FF700A56A8D /* AboutMobuzzVC.m */,
+				EFE5A2801B984AB300883E43 /* BreedingsiteComplaintVC.h */,
+				EFE5A2811B984AB300883E43 /* BreedingsiteComplaintVC.m */,
+				EFE5A2861B984B1F00883E43 /* BreedingsiteDetailsVC.h */,
+				EFE5A2871B984B1F00883E43 /* BreedingsiteDetailsVC.m */,
+				EFE5A2831B984AD800883E43 /* BreedingsiteHistoryVC.h */,
+				EFE5A2841B984AD800883E43 /* BreedingsiteHistoryVC.m */,
+				EFBD27771BB5426E005CD49C /* InfoDengueSubVC1Statistics.h */,
+				EFBD27781BB5426E005CD49C /* InfoDengueSubVC1Statistics.m */,
+				EFBD277A1BB54299005CD49C /* InfoDengueSubVC2Dengue.h */,
+				EFBD277B1BB54299005CD49C /* InfoDengueSubVC2Dengue.m */,
+				EFBD277D1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.h */,
+				EFBD277E1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.m */,
+				EFBD27801BB542C5005CD49C /* InfoDengueSubVC4Symptoms.h */,
+				EFBD27811BB542C5005CD49C /* InfoDengueSubVC4Symptoms.m */,
+				EFBD27831BB542D8005CD49C /* InfoDengueSubVC5Treatment.h */,
+				EFBD27841BB542D8005CD49C /* InfoDengueSubVC5Treatment.m */,
+				EFBD27861BB542ED005CD49C /* InfoDengueSubVC6Prevention.h */,
+				EFBD27871BB542ED005CD49C /* InfoDengueSubVC6Prevention.m */,
+				EF2C3F8A1B8D98CF0060C7E1 /* MainNavHomeVC.h */,
+				EF2C3F8B1B8D98CF0060C7E1 /* MainNavHomeVC.m */,
+				EF2C3F901B8D99200060C7E1 /* MainNavInformationVC.h */,
+				EF2C3F911B8D99200060C7E1 /* MainNavInformationVC.m */,
+				EF2C3F8D1B8D98F50060C7E1 /* MainNavProfileVC.h */,
+				EF2C3F8E1B8D98F50060C7E1 /* MainNavProfileVC.m */,
+				EFBD27741BB51ED9005CD49C /* MapVC.h */,
+				EFBD27751BB51ED9005CD49C /* MapVC.m */,
+				EF2C3F991B8DA5330060C7E1 /* ProfileEditVC.h */,
+				EF2C3F9A1B8DA5330060C7E1 /* ProfileEditVC.m */,
+				EF1F16351B65EB0D005D8864 /* ProfileLoginVC.h */,
+				EF1F16361B65EB0D005D8864 /* ProfileLoginVC.m */,
+				EF9680BA1BCBA2AC00FD4FD1 /* ProfileRecoverVC.h */,
+				EF9680BB1BCBA2AC00FD4FD1 /* ProfileRecoverVC.m */,
+				EF1F164A1B68B950005D8864 /* ProfileRegisterVC.h */,
+				EF1F164B1B68B950005D8864 /* ProfileRegisterVC.m */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		EF1F162E1B65E719005D8864 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				EF1F16321B65E8D2005D8864 /* GlobalVariableAndMethod.h */,
+				EF1F16331B65E8D2005D8864 /* GlobalVariableAndMethod.m */,
+				EF1F16381B65FF1F005D8864 /* PopupMessages.h */,
+				EF3A6D871B95A24000A56A8D /* LocalizedText.h */,
+				EF3A6D881B95A24000A56A8D /* LocalizedText.m */,
+				EF9680B91BC8E83100FD4FD1 /* CMCRegions.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		EF3A6D8D1B96CC2900A56A8D /* font */ = {
+			isa = PBXGroup;
+			children = (
+				EF07F2681BC3CBE90091A831 /* MalithiWeb.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		EF976D2E1BA905FD00B2A96A /* plain object class */ = {
+			isa = PBXGroup;
+			children = (
+				EF976D2F1BA9065200B2A96A /* ComplaintDescription.h */,
+				EF976D301BA9065200B2A96A /* ComplaintDescription.m */,
+			);
+			name = "plain object class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF1F16021B65E6B7005D8864 /* mobuzz.ios.general */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1F16261B65E6B7005D8864 /* Build configuration list for PBXNativeTarget "mobuzz.ios.general" */;
+			buildPhases = (
+				EF1F15FF1B65E6B7005D8864 /* Sources */,
+				EF1F16001B65E6B7005D8864 /* Frameworks */,
+				EF1F16011B65E6B7005D8864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobuzz.ios.general;
+			productName = mobuzz.ios.general;
+			productReference = EF1F16031B65E6B7005D8864 /* mobuzz.ios.general.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF1F161B1B65E6B7005D8864 /* mobuzz.ios.generalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF1F16291B65E6B7005D8864 /* Build configuration list for PBXNativeTarget "mobuzz.ios.generalTests" */;
+			buildPhases = (
+				EF1F16181B65E6B7005D8864 /* Sources */,
+				EF1F16191B65E6B7005D8864 /* Frameworks */,
+				EF1F161A1B65E6B7005D8864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF1F161E1B65E6B7005D8864 /* PBXTargetDependency */,
+			);
+			name = mobuzz.ios.generalTests;
+			productName = mobuzz.ios.generalTests;
+			productReference = EF1F161C1B65E6B7005D8864 /* mobuzz.ios.generalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF1F15FB1B65E6B7005D8864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cosmic;
+				TargetAttributes = {
+					EF1F16021B65E6B7005D8864 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3B32MBW7H5;
+					};
+					EF1F161B1B65E6B7005D8864 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3B32MBW7H5;
+						TestTargetID = EF1F16021B65E6B7005D8864;
+					};
+				};
+			};
+			buildConfigurationList = EF1F15FE1B65E6B7005D8864 /* Build configuration list for PBXProject "mobuzz.ios.general" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				si,
+				"ta-LK",
+			);
+			mainGroup = EF1F15FA1B65E6B7005D8864;
+			productRefGroup = EF1F16041B65E6B7005D8864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF1F16021B65E6B7005D8864 /* mobuzz.ios.general */,
+				EF1F161B1B65E6B7005D8864 /* mobuzz.ios.generalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF1F16011B65E6B7005D8864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F16121B65E6B7005D8864 /* Main.storyboard in Resources */,
+				EF1F16171B65E6B7005D8864 /* LaunchScreen.xib in Resources */,
+				EF3A6D811B958BAB00A56A8D /* Localizable.strings in Resources */,
+				EF1F16141B65E6B7005D8864 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1F161A1B65E6B7005D8864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF710C671BD34A3B00F78D51 /* MalithiWeb.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF1F15FF1B65E6B7005D8864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBD27821BB542C5005CD49C /* InfoDengueSubVC4Symptoms.m in Sources */,
+				EFBD27791BB5426E005CD49C /* InfoDengueSubVC1Statistics.m in Sources */,
+				EF1F160F1B65E6B7005D8864 /* ViewController.m in Sources */,
+				EF2C3F8F1B8D98F50060C7E1 /* MainNavProfileVC.m in Sources */,
+				EF2C3F9B1B8DA5330060C7E1 /* ProfileEditVC.m in Sources */,
+				EF3A6D8C1B969E1900A56A8D /* AboutFaqVC.m in Sources */,
+				EFBD27881BB542ED005CD49C /* InfoDengueSubVC6Prevention.m in Sources */,
+				EFBD27851BB542D8005CD49C /* InfoDengueSubVC5Treatment.m in Sources */,
+				EF1F160C1B65E6B7005D8864 /* AppDelegate.m in Sources */,
+				EF3A6D891B95A24000A56A8D /* LocalizedText.m in Sources */,
+				EF1F16371B65EB0D005D8864 /* ProfileLoginVC.m in Sources */,
+				EFBD277C1BB54299005CD49C /* InfoDengueSubVC2Dengue.m in Sources */,
+				EFE5A2881B984B1F00883E43 /* BreedingsiteDetailsVC.m in Sources */,
+				EF9680BC1BCBA2AC00FD4FD1 /* ProfileRecoverVC.m in Sources */,
+				EF6930751BB9397B00E759A8 /* AboutDengueVC.m in Sources */,
+				EFE5A2851B984AD800883E43 /* BreedingsiteHistoryVC.m in Sources */,
+				EFBD277F1BB542AD005CD49C /* InfoDengueSubVC3Trasmission.m in Sources */,
+				EFBD27761BB51ED9005CD49C /* MapVC.m in Sources */,
+				EFE5A2821B984AB300883E43 /* BreedingsiteComplaintVC.m in Sources */,
+				EF3A6D9B1B983FF700A56A8D /* AboutMobuzzVC.m in Sources */,
+				EF1F164C1B68B950005D8864 /* ProfileRegisterVC.m in Sources */,
+				EF2C3F921B8D99200060C7E1 /* MainNavInformationVC.m in Sources */,
+				EF2C3F8C1B8D98CF0060C7E1 /* MainNavHomeVC.m in Sources */,
+				EF976D311BA9065200B2A96A /* ComplaintDescription.m in Sources */,
+				EF1F16091B65E6B7005D8864 /* main.m in Sources */,
+				EF1F16341B65E8D2005D8864 /* GlobalVariableAndMethod.m in Sources */,
+				EF3A6D981B983FDB00A56A8D /* AboutCosmicVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF1F16181B65E6B7005D8864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1F16231B65E6B7005D8864 /* mobuzz_ios_generalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF1F161E1B65E6B7005D8864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF1F16021B65E6B7005D8864 /* mobuzz.ios.general */;
+			targetProxy = EF1F161D1B65E6B7005D8864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF1F16101B65E6B7005D8864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F16111B65E6B7005D8864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF1F16151B65E6B7005D8864 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF1F16161B65E6B7005D8864 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EF3A6D831B958BAB00A56A8D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3A6D821B958BAB00A56A8D /* Base */,
+				EF3A6D841B958BBB00A56A8D /* si */,
+				EF3A6D851B958BCF00A56A8D /* ta-LK */,
+				EF3A6D861B958BD600A56A8D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF1F16241B65E6B7005D8864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF1F16251B65E6B7005D8864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF1F16271B65E6B7005D8864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				INFOPLIST_FILE = mobuzz.ios.general/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cosmic.mobuzz.dengue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EF1F16281B65E6B7005D8864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				INFOPLIST_FILE = mobuzz.ios.general/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cosmic.mobuzz.dengue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EF1F162A1B65E6B7005D8864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mobuzz.ios.generalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cosmic.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobuzz.ios.general.app/mobuzz.ios.general";
+			};
+			name = Debug;
+		};
+		EF1F162B1B65E6B7005D8864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = mobuzz.ios.generalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cosmic.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobuzz.ios.general.app/mobuzz.ios.general";
+			};
+			name = Release;
+		};
+		EFCB868E1BD5F5AA003FB5D1 /* Distribution AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution AdHoc";
+		};
+		EFCB868F1BD5F5AA003FB5D1 /* Distribution AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Cosmic Dev (3B32MBW7H5)";
+				INFOPLIST_FILE = mobuzz.ios.general/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.cosmic.mobuzz.dengue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ff185d3b-9a6c-42f4-890a-8a4a2359e27f";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = "Distribution AdHoc";
+		};
+		EFCB86901BD5F5AA003FB5D1 /* Distribution AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = mobuzz.ios.generalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cosmic.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobuzz.ios.general.app/mobuzz.ios.general";
+			};
+			name = "Distribution AdHoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF1F15FE1B65E6B7005D8864 /* Build configuration list for PBXProject "mobuzz.ios.general" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F16241B65E6B7005D8864 /* Debug */,
+				EF1F16251B65E6B7005D8864 /* Release */,
+				EFCB868E1BD5F5AA003FB5D1 /* Distribution AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1F16261B65E6B7005D8864 /* Build configuration list for PBXNativeTarget "mobuzz.ios.general" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F16271B65E6B7005D8864 /* Debug */,
+				EF1F16281B65E6B7005D8864 /* Release */,
+				EFCB868F1BD5F5AA003FB5D1 /* Distribution AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF1F16291B65E6B7005D8864 /* Build configuration list for PBXNativeTarget "mobuzz.ios.generalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1F162A1B65E6B7005D8864 /* Debug */,
+				EF1F162B1B65E6B7005D8864 /* Release */,
+				EFCB86901BD5F5AA003FB5D1 /* Distribution AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF1F15FB1B65E6B7005D8864 /* Project object */;
+}

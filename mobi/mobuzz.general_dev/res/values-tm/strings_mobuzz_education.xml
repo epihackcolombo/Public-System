@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Statistics -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_title" android:layout_height="wrap_content" name="dengue_statistics_title">புள்ளிவிவரம்</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para1" android:layout_height="wrap_content" name="dengue_statistics_para1">உலக ஜனத்தொகையில் ஏறத்தாழ பாதி மக்களுக்கு டெங்கினால் அபாயம் இருக்கிறது.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para2" android:layout_height="wrap_content" name="dengue_statistics_para2" formatted="false"></string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para3" android:layout_height="wrap_content" name="dengue_statistics_para3" formatted="false">டெங்கி  காய்ச்சல் சிகிச்சையின்  போது,  இறப்பு  விகிதம் 2 முதல் 5% வரை  உள்ளது.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para4" android:layout_height="wrap_content" name="dengue_statistics_para4" formatted="false">சிகிச்சை  அளிக்காத  போது, இறப்பு  விகிதம் 50% அதிகமாக  உள்ளது.</string>  
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_statistics_para5" android:layout_height="wrap_content" name="dengue_statistics_para5">2010-ல் இருந்து 2013 வரை  கொழும்பில்  டெங்கி  சம்பவங்கள் 81.5% அதிகரித்து உள்ளன.</string>
+	
+    <!-- About Dengue -->
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_title" android:layout_height="wrap_content" name="about_dengue_title">டெங்கி</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para1" android:layout_height="wrap_content" name="about_dengue_para1">டெங்கி அல்லது  டெங்கி காய்ச்சல்,  ஏடிஸ் கொசுக்கள் மூலம் பரவும் வைரஸ் நோய் ஆகும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/about_dengue_para2" android:layout_height="wrap_content" name="about_dengue_para2">டெங்கியை குணப்படுத்த மருந்து அல்லது தடுப்பூசி கண்டுப் பிடிக்கப்படவில்லை. இதை தவிர்க்க ஏடிஸ் கொசுக்களின் இனப்பெருக்கத்தை தடுப்பதே ஒரே சிறந்த வழியாகும்.</string>
+	
+	<!-- Dengue Spread -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title1" android:layout_height="wrap_content" name="dengue_spread_title1">டெங்கி எப்படி பரவுகிறது?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para1" android:layout_height="wrap_content" name="dengue_spread_para1">டெங்கி 2 வழிகளில் பரவுகிறது, மனிதனிடமிருந்து கொசுகளுக்கும் மற்றும் கொசுகளிடமிருந்து மனிதனுக்கும் பரவுகிறது.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para2" android:layout_height="wrap_content" name="dengue_spread_para2"><![CDATA[<u>கொசுகளிடமிருந்து மனிதனுக்கு</u>: பாதிக்கப்பட்டப் பெண் ஏடிஸ் கொசுகள் மனிதர்களை கடிக்கும் போது அவர்களுக்கு வைரஸ் கடக்கின்றது.]]></string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para3" android:layout_height="wrap_content" name="dengue_spread_para3"><![CDATA[<u>மனிதனிடமிருந்து கொசுகளுக்கு</u>: வைரஸ்யை மனிதர்கள் அவர்களுக்கு உள்ளே காவியும் பெருக்கியும் மேலும் பாதிக்கப்படாத கொசுகள் அவர்களை கடிக்கும் போதும் அவற்றுக்கும் பரவுகின்றன. நோயாளியை கடித்த பின்னர் ஒரு வாரம் கழித்து கொசுகளுகும் தொற்று ஏற்படுகிறது.]]></string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title2" android:layout_height="wrap_content" name="dengue_spread_title2">ஏடிஸ் கொசுக்களை எப்படி கண்டுக்  கொள்வது?</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para4" android:layout_height="wrap_content" name="dengue_spread_para4">நீங்கள் ஏடிஸ் கொசுக்களை அதன் உடலில் காணப்படும் கருப்பு மற்றும் வெள்ளை கோடுகள் மூலம் அடையாளம் காண முடியும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para5" android:layout_height="wrap_content" name="dengue_spread_para5">ஏடிஸ் கொசுக்கள் அதிகாலை அல்லது அந்தி பொழுதில் கடிக்க முனைவதால், அவ்வேளைகளில் கூடுதல் கவனம் தேவை.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_para6" android:layout_height="wrap_content" name="dengue_spread_para6">ஒரு ஏடிஸ் கொசுக்கள் இது போல இருக்கும்.</string>
+    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title3" android:layout_height="wrap_content" name="dengue_spread_title3">ஆபத்தான இடங்கள்</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title4" android:layout_height="wrap_content" name="dengue_spread_title4">முகப்பு</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_spread_title5" android:layout_height="wrap_content" name="dengue_spread_title5">பொது பகுதிகள்</string>
+       
+    <!-- Dengue Symptoms -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para1" android:layout_height="wrap_content" name="dengue_symptoms_para1">திடிரென்ன அதிகமான காச்சல் (2 முதல் 7 நாட்கள் வரை).</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para2" android:layout_height="wrap_content" name="dengue_symptoms_para2">தலைவலி மற்றும் கண் பின்னால் இருந்து வலி.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para3" android:layout_height="wrap_content" name="dengue_symptoms_para3">தடிப்புக்கள் வெளிப்படுதல்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para4" android:layout_height="wrap_content" name="dengue_symptoms_para4">தசை மற்றும் மூட்டு வலி.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para5" android:layout_height="wrap_content" name="dengue_symptoms_para5">குமட்டல் மற்றும் வாந்தி.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para6" android:layout_height="wrap_content" name="dengue_symptoms_para6">மூக்கு அல்லது பல் ஈறுகளில் இரத்தப்போக்கு, கருப்பு-பழுப்பு வாந்தி அல்லது மலம், கடுமையான வயிற்று வலி, உடல் குளிர் அல்லது வெளுப்பு , அமைதியின்மை மற்றும் அயர்வு ஆகியவை மேலும் மற்ற அறிகுறிகள் ஆகும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_para7" android:layout_height="wrap_content" name="dengue_symptoms_para7">பெரும்பாலான நோயாளிகள் சுமார் 3 அல்லது 4 நாட்களில் டெங்கி காய்ச்சலில் இருந்து மீளமுடியும், ஆனால் அது தீவிரமானால் மரணத்திற்கு வழிவகுக்கும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_symptoms_title1" android:layout_height="wrap_content" name="dengue_symptoms_title1">டெங்கி அறிகுறிகள்</string>
+    
+    <!-- Dengue Treatment -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title1" android:layout_height="wrap_content" name="dengue_treatment_title1">சிகிச்சை</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para1" android:layout_height="wrap_content" name="dengue_treatment_para1">ஒரு தகுதியான மருத்துவரிடம் ஆலோசிக்கவும்!</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para2" android:layout_height="wrap_content" name="dengue_treatment_para2">உங்கள் மருத்துவர் பரிந்துரைத்த மருந்துகள்  தவிர வேறு மருந்துகள்  சாப்பிட வேண்டாம். மருந்துகள் தவறாக பாவிக்கப்பட்டால் உட்புற  இரத்த  போக்கு ஏற்படும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para3" android:layout_height="wrap_content" name="dengue_treatment_para3">நிறைய ஓய்வு எடுக்கவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para4" android:layout_height="wrap_content" name="dengue_treatment_para4">அதிக தண்ணீர் குடிக்கவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para5" android:layout_height="wrap_content" name="dengue_treatment_para5">சத்தான உணவுகளை சாப்பிடவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para6" android:layout_height="wrap_content" name="dengue_treatment_para6">பள்ளி, வேலை அல்லது வைரஸ் பரவக்கூடிய வேறு எந்த இடங்களுக்கும் செல்வதை தவிர்க்கவும்.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_title2" android:layout_height="wrap_content" name="dengue_treatment_title2">கொழும்பு நகரில் உள்ள மருத்துவமனைகள்</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_treatment_para7" android:layout_height="wrap_content" name="dengue_treatment_para7"><a href="https://maps.google.lk/maps?q=colombo+hospitals&amp;sll=6.9215305,79.8648533&amp;spn=0.2617848,0.351645&amp;t=m&amp;hq=hospitals&amp;hnear=colombo,+Western+Province">► வெளிப்புறமாக, வரைபடத்தைத் திறகுக!</a></string> 
+	    
+    <!-- Dengue Prevention -->
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_title1" android:layout_height="wrap_content" name="dengue_prevention_title1">எப்படி தடுக்கலாம்</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para1" android:layout_height="wrap_content" name="dengue_prevention_para1">டெங்கி கொசுக்கள் இனப்பெருகுவதற்கு சுத்தமான தண்ணீர் அவசியம். சுத்தமான தண்ணீர் கொண்ட கொள்கலன்களை விட்டுவிட வேண்டாம். அவைகள் ஏடிஸ் கொசுக்கள் பெருகுவதற்கு சாத்தியமான நிலங்களாக மாற முடியும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para2" android:layout_height="wrap_content" name="dengue_prevention_para2">கொள்கலன்களை  மூடவும் அல்லது பயன்படுத்தாத போது அவற்றை கவிழ்த்து விடவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para3" android:layout_height="wrap_content" name="dengue_prevention_para3">அடிக்கடி சாடிகளில் உள்ள தண்ணீரை மாற்றவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para4" android:layout_height="wrap_content" name="dengue_prevention_para4">அடிக்கடி வீட்டு செல்லப்பிராணிகளுக்கு கொடுக்கும் தண்ணீரை மாற்றவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para5" android:layout_height="wrap_content" name="dengue_prevention_para5">நீங்கள் மீன்கள் வளர்ப்பவர் என்றால், சிறிய கொசுக்கள் உண்ணும் மீன்களை  வளர்க்கவும்.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para6" android:layout_height="wrap_content" name="dengue_prevention_para6">திறந்த காலியான உணவு கொள்கலங்களை உதார்ணதிக்கு ஐஸ் கிரீம் கப், தேங்காய் ஓடுகள், பொலித்தீன் பைகள் ஆகியவைகளை எறிவதை தவிர்க்க வேண்டும். அவைகள் மழை பெய்யும் போது நீரை தேக்கும்.</string>
+	<string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para7" android:layout_height="wrap_content" name="dengue_prevention_para7">வடிகால்களை தடுக்கும் இலைகள் மற்றும் பிற குப்பைகளை அகற்றவும்.</string>    
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para8" android:layout_height="wrap_content" name="dengue_prevention_para8">வாய்க்கால்களை சுத்தப்படுத்தி எந்த அடைப்பும் இல்லை என்பதை உறுதி செய்யவும்.</string>
+    <string android:layout_width="wrap_content" android:id="@+id/dengue_prevention_para9" android:layout_height="wrap_content" name="dengue_prevention_para9">கூரை மேல் உள்ள மற்றும் தோட்டங்களில் உள்ள டயர்களில் மண் நிரப்பி அவைகளில் தண்ணீர் தேங்காமல் தடுக்கவும்.</string>
+    
+    
+</resources>

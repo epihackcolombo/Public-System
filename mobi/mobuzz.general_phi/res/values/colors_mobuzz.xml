@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<color name="red">#ffff0000</color>
+	<color name="lightgreen">#9AFE2E</color>
+	<color name="black">#000000</color>
+	<color name="white">#ffffff</color>
+	<color name="green">#088A08</color>
+	<color name="grey">#736F6E</color>
+	
+	<color name="mobuzz_yellow">#0AA92C</color>
+	<color name="mobuzz_blue">#142238</color>
+	<color name="mobuzz_ash">#eeeeef</color>
+	<color name="mobuzz_gray">#666666</color>
+	<color name="mobuzz_trans">#000AA92C</color>
+	
+	<color name="hint_holo_light">#808080</color>
+	<color name="theme_ash">#b2b2b2</color>
+	
+</resources>

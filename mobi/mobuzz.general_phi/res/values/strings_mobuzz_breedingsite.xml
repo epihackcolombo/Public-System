@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <!-- Report -->
+    <string name="hint_breedingsite_address">Exact address or closest landmark</string>
+    <string name="error_breedingsite_address">Please describe the location as best you can.</string>
+    <string name="hint_breedingsite_remark">Describe the breeding site</string>
+    <string name="error_breedingsite_remark">Example: I noticed a place full of mosquitoes right next to a trash near the National Hospital.</string>
+ 
+    <!-- Report list titles-->
+    <string name="msg_breedingsite_assessment">Rate the level of urgency!</string>
+    <string name="msg_select_language">Select the preferred language</string>
+    <string name="msg_select_city">Select the nearest city</string>
+    <string name="msg_select_gender">Select your gender</string>
+    
+    <string name="breedingsite_detail_address">Exact address or closest landmark:</string>
+    <string name="breedingsite_detail_remark">Description of the breeding site:</string>
+    <string name="breedingsite_detail_assessment">Rated level of urgency:</string>
+    <string name="breedingsite_detail_calluser">Call user for more information:</string>
+
+</resources>
+

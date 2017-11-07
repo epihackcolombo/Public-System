@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblr_msg_action"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="1dp"
+    android:background="@color/mobuzz_ash"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tblr_msg_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/mobuzz_yellow" >
+
+            <TextView
+                android:id="@+id/txt_moh_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:text="title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TableRow
+                android:id="@+id/tblr_moh_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                            <ImageView
+                                android:id="@+id/imgv_moh"
+                                android:layout_width="fill_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="top"
+                                android:layout_weight="1"
+                                android:adjustViewBounds="true"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/bg_transparent" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_moh_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/txt_moh_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text=" "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_moh_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/lnlout_moh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgv_tel_moh"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/but_call"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/txt_moh_tel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:text=" "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/mobuzz_gray"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_moh_doc_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/txt_moh_doc_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text=" "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tblr_moh_doc_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/lnlout_moh_doc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <ImageView
+                            android:id="@+id/imgv_tel_moh_doc"
+                            android:layout_width="30dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginLeft="5dp"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/but_call"
+                            android:visibility="visible" />
+
+                        <TextView
+                            android:id="@+id/txt_moh_doc_tel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/mobuzz_gray"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </TableRow>
+        </TableLayout>
+
+        <TableRow
+            android:id="@+id/tblr_msg_action_but"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp" >
+
+            <Button
+                android:id="@+id/btn_msg_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/mobuzz_blue"
+                android:text="OK"
+                android:textColor="@color/mobuzz_yellow"
+                android:textSize="18sp" />
+        </TableRow>
+    </LinearLayout>
+
+</RelativeLayout>

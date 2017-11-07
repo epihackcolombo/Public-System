@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblr_msg_action"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mobuzz_ash"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/mobuzz_ash"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleLargeInverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/xml_progressbar"
+                android:minHeight="60dp"
+                android:minWidth="60dp" />
+
+            <TextView
+                android:id="@+id/txt_msg_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="progress..."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>  
+
+</RelativeLayout>

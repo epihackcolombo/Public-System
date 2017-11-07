@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mo-Buzz Dengue</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ui_about_cosmic">UiAboutCosmic</string>
+    <string name="title_activity_ui_about_faq">UiAboutFaq</string>
+    <string name="title_activity_ui_breedingsite">UiBreedingsite</string>
+    <string name="title_activity_ui_breedingsite_history">UiBreedingsiteHistory</string>
+    <string name="title_activity_ui_breedingsite_history_details">UiBreedingsiteHistoryDetails</string>
+    <string name="title_activity_ui_breedingsite_report">UiBreedingsiteReport</string>
+    <string name="title_activity_ui_education">UiEducation</string>
+    <string name="title_activity_ui_education_mainpage">UiEducationComponents</string>
+    <string name="title_activity_ui_breedingsite_mainpage">UiBreedingsiteComponents</string>
+    <string name="title_activity_ui_main">UiMain</string>
+    <string name="title_activity_ui_home">UiHome</string>
+    <string name="title_activity_ui_map">UiMap</string>
+    <string name="title_activity_ui_profile">UiProfile</string>
+    <string name="title_activity_ui_profile_block">UiProfileBlock</string>
+    <string name="title_activity_ui_profile_login">UiProfileLogin</string>
+    <string name="title_activity_ui_profile_recover">UiProfileRecover</string>
+    <string name="title_activity_ui_profile_register">UiProfileRegister</string>
+    <string name="title_activity_ui_about_information">UiAboutMoBuzz</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_ui_profile_edit">UiProfileEdit</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

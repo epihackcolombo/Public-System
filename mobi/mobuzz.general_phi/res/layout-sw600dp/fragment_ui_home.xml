@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiHome" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_home" />
+    </TableRow>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp" >
+
+            <TextView
+                android:id="@+id/tvw_sp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ibut_bsite"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/mobuzz_ash"
+                android:scaleType="centerInside"
+                android:src="@drawable/but_form_breedingsite" />
+
+            <TextView
+                android:id="@+id/tvw_sp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ibut_imap"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/mobuzz_ash"
+                android:scaleType="centerInside"
+                android:src="@drawable/but_form_map" />
+
+            <TextView
+                android:id="@+id/tvw_sp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ibut_adengue"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:background="@color/mobuzz_ash"
+                android:scaleType="centerInside"
+                android:src="@drawable/but_form_education" />
+
+            <TextView
+                android:id="@+id/tvw_sp4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</RelativeLayout>

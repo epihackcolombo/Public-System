@@ -1,0 +1,328 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    tools:context=".UiProfileActivity" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/mobuzz_yellow"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_profile" />
+
+    </TableRow>
+
+    <ScrollView
+        android:id="@+id/ts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash" >
+
+        <LinearLayout
+            android:id="@+id/lnrlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="top"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="false"
+            android:orientation="vertical" >
+
+            <TableRow
+                android:id="@+id/tblr_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/txt_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="user&apos;s name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+            </TableRow>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="10dp" >
+
+                <TableRow
+                    android:id="@+id/tblr_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edt_fullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/apptheme_edit_text_holo_light"
+                        android:ems="10"
+                        android:hint="firstname lastname"
+                        android:inputType="textPersonName"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ .:"
+                        android:textSize="18dp" >
+
+                        <requestFocus />
+                    </EditText>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/btnEqual"
+                        android:layout_weight="1"
+                        android:background="@drawable/apptheme_edit_text_holo_light"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ,.:;?%/\|@$*+-_#"
+                        android:ems="10"
+                        android:hint="email"
+                        android:inputType="textEmailAddress"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_contactno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edt_contactno"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/apptheme_edit_text_holo_light"
+                        android:ems="10"
+                        android:hint="preferred contact number"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_residence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" >
+
+                    <Button
+                        android:id="@+id/but_residence"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/xml_button_spinner"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="residence"
+                        android:textColor="@color/hint_holo_light"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_language"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/but_language"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/xml_button_spinner_enable"
+                        android:gravity="left|center_vertical"
+                        android:paddingLeft="12dp"
+                        android:text="preferred language"
+                        android:textColor="@color/hint_holo_light"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tbl_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TableRow
+                    android:id="@+id/tblr_ward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp" >
+
+                    <TextView
+                        android:id="@+id/txt_ward"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:text="Please contact your administrator for CMC-ward updates."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/mobuzz_gray"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_currentpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edt_currentpassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/apptheme_edit_text_holo_light"
+                        android:ems="10"
+                        android:hint="current password"
+                        android:inputType="textPassword"
+                        android:maxLength="40"
+                        android:textSize="18dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_newpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <EditText
+                        android:id="@+id/edt_newpassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/apptheme_edit_text_holo_light"
+                        android:ems="10"
+                        android:hint="new password"
+                        android:inputType="textPassword"
+                        android:maxLength="40"
+                        android:textSize="18dp"
+                        android:visibility="gone" />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tblr_retypenewpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+         
+                   <EditText
+                       android:id="@+id/edt_retypenewpassword"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1"
+                       android:background="@drawable/apptheme_edit_text_holo_light"
+                       android:ems="10"
+                       android:hint="retype new password"
+                       android:inputType="textPassword"
+                       android:maxLength="40"
+                       android:textSize="18dp"
+                       android:visibility="gone" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableRow
+                android:id="@+id/tblr_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="35dp"
+                android:layout_marginTop="20dp" >
+
+                <Button
+                    android:id="@+id/but_chpasswd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/xml_button"
+                    android:height="45dp"
+                    android:minHeight="45dp"
+                    android:minWidth="160dp"
+                    android:text="change password"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp"
+                    android:visibility="gone"
+                    android:width="160dp" />
+
+               <Button
+                   android:id="@+id/but_logout"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="right"
+                   android:layout_marginRight="10dp"
+                   android:background="@drawable/xml_button"
+                   android:height="45dp"
+                   android:minHeight="45dp"
+                   android:minWidth="100dp"
+                   android:text="sign out"
+                   android:textColor="@color/mobuzz_gray"
+                   android:textSize="18dp"
+                   android:width="100dp" />
+
+                <Button
+                    android:id="@+id/but_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:background="@drawable/xml_button_form"
+                    android:height="45dp"
+                    android:minHeight="45dp"
+                    android:minWidth="100dp"
+                    android:text="edit"
+                    android:textColor="@color/red"
+                    android:textSize="18dp"
+                    android:width="100dp" />
+
+                <Button
+                    android:id="@+id/but_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/xml_button_form"
+                    android:height="45dp"
+                    android:minHeight="45dp"
+                    android:minWidth="100dp"
+                    android:text="save"
+                    android:textColor="@color/mobuzz_gray"
+                    android:textSize="18dp"
+                    android:visibility="gone"
+                    android:width="100dp" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

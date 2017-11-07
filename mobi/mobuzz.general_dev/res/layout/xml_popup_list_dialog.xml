@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tblr_msg_action"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="1dp"
+    android:background="@color/mobuzz_ash"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tblr_msg_title"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/mobuzz_yellow" >
+
+            <TextView
+                android:id="@+id/txt_msg_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="title"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/mobuzz_gray"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/lstw_msg_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="35dp" >
+
+        </ListView>
+
+        <TableRow
+            android:id="@+id/tblr_btn_action"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="-35dp" >
+
+            <Button
+                android:id="@+id/btn_msg_no"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@color/mobuzz_blue"
+                android:text="Cancel"
+                android:textColor="@color/mobuzz_yellow"
+                android:textSize="18dp" />
+        </TableRow>
+    </LinearLayout>
+
+</RelativeLayout>

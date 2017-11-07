@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UiHome" >
+
+    <TableRow
+        android:id="@+id/tblr_topmenu"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/logo_header_ui_home" />
+    </TableRow>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tblr_topmenu"
+        android:background="@color/mobuzz_ash"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tbl_row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bg_forms" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tblr_colorcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:weightSum="3"
+            android:gravity="center" >
+
+	       <ImageButton
+	           android:id="@+id/ibut_bsite"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@color/mobuzz_ash"
+	           android:scaleType="centerInside"
+	           android:src="@drawable/but_form_breedingsite" />
+            
+	       <ImageButton
+	           android:id="@+id/ibut_imap"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@color/mobuzz_ash"
+	           android:scaleType="centerInside"
+	           android:src="@drawable/but_form_map" />
+            
+	       <ImageButton
+	           android:id="@+id/ibut_adengue"
+	           android:layout_width="match_parent"
+	           android:layout_height="match_parent"
+	           android:layout_weight="1"
+	           android:background="@color/mobuzz_ash"
+	           android:scaleType="centerInside"
+	           android:src="@drawable/but_form_education" />
+
+        </TableRow>
+
+    </LinearLayout>
+    
+</RelativeLayout>

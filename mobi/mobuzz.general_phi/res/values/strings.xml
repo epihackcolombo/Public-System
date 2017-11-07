@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMC Public Health (Dengue)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ui_about_cosmic">About Cosmic</string>
+    <string name="title_activity_ui_about_faq">About FAQ</string>
+    <string name="title_activity_ui_breedingsite">Breedingsite</string>
+    <string name="title_activity_ui_breedingsite_history"> Breedingsite History</string>
+    <string name="title_activity_ui_breedingsite_history_details">Breedingsite History Details</string>
+    <string name="title_activity_ui_breedingsite_report">Breedingsite Report</string>
+    <string name="title_activity_ui_education">Education</string>
+    <string name="title_activity_ui_education_mainpage">Education Components</string>
+    <string name="title_activity_ui_breedingsite_mainpage">Breedingsite Components</string>
+    <string name="title_activity_ui_main">Main</string>
+    <string name="title_activity_ui_home">Home</string>
+    <string name="title_activity_ui_map">Map</string>
+    <string name="title_activity_ui_map_hotspots">Hotspot Map</string>
+    <string name="title_activity_ui_map_Reports">Report Map</string>
+    <string name="title_activity_ui_profile">Profile</string>
+    <string name="title_activity_ui_profile_block">Profile Block</string>
+    <string name="title_activity_ui_profile_login">Profile Login</string>
+    <string name="title_activity_ui_profile_recover">Profile Recover</string>
+    <string name="title_activity_ui_profile_register">Profile Register</string>
+    <string name="title_activity_ui_about_information">About MoBuzz</string>
+    <string name="title_activity_splash">Splash Activity</string>
+    <string name="title_activity_ui_profile_edit">Profile Edit</string>
+    <string name="title_activity_ui_google_map">Google Map</string>
+    <string name="title_activity_ui_notification">Notification</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="error_invalid_email">This email address is invalid! Example: myname@email.com</string>
+    <string name="error_invalid_password">This password is too short!</string>
+    <string name="error_invalid_username">This username is too short!</string>
+    <string name="error_invalid_username2">Wrong username pattern! \r\nEx:PHD/PHI/000</string>
+    <string name="error_invalid_ward">Wards should be 1 to 47 and separated by commas.</string>
+    
+    <string name="error_incorrect_password">This password is incorrect!</string>
+    <string name="error_incorrect_textlength">Value is too short!</string>
+    
+    <string name="error_field_required">This field is required!</string>
+    
+    <string name="error_mismatch_password">Passwords don\'t match. Please re-enter password!</string>
+    <string name="error_invalid_mobileno">Please enter a 10-digit number!</string>
+    <string name="error_similar_userpass">Username and password are similar!</string>
+
+</resources>
